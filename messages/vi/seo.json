@@ -1,0 +1,43 @@
+{
+  "home": {
+    "title": "Nha Khoa Passion - Chăm Sóc Răng Miệng Chuyên Nghiệp Tại Đà Nẵng",
+    "description": "Nha Khoa Passion cung cấp dịch vụ nha khoa toàn diện tại Đà Nẵng bao gồm cấy ghép implant, chỉnh nha, răng sứ và điều trị tổng quát. Chăm sóc chuyên nghiệp với công nghệ hiện đại, đội ngũ bác sĩ giàu kinh nghiệm."
+  },
+  "about": {
+    "title": "Về Nha Khoa Passion - Đội Ngũ Bác Sĩ Chuyên Nghiệp Tại Đà Nẵng",
+    "description": "Nha Khoa Passion được dẫn dắt bởi BS CKI Đặng Hoàng Thanh Tùng - chuyên gia Implant và BS Nguyễn Bảo Yến - chuyên gia Chỉnh nha. Triết lý điều trị Đúng - Đủ - Đẹp, cam kết kết quả bền vững lâu dài."
+  },
+  "services": {
+    "title": "Dịch Vụ Nha Khoa - Nha Khoa Passion Đà Nẵng",
+    "description": "Dịch vụ nha khoa toàn diện tại Nha Khoa Passion: chỉnh nha (niềng răng), cấy ghép implant, răng sứ thẩm mỹ, điều trị tổng quát. Vật liệu nhập khẩu FDA/CE, quy trình vô trùng chuẩn Bộ Y tế.",
+    "general": {
+      "title": "Điều Trị Tổng Quát - Nha Khoa Passion Đà Nẵng",
+      "description": "Điều trị tổng quát tại Nha Khoa Passion: lấy cao răng, trám răng thẩm mỹ, điều trị tủy, nhổ răng khôn, điều trị nha chu, tẩy trắng răng, điều trị cười hở lợi. Chẩn đoán toàn diện, quy trình an toàn tuyệt đối."
+    },
+    "orthodontic": {
+      "title": "Chỉnh Nha (Niềng Răng) - Nha Khoa Passion Đà Nẵng",
+      "description": "Chỉnh nha chuyên nghiệp tại Nha Khoa Passion: niềng răng mắc cài kim loại/sứ, chỉnh nha trong suốt Invisalign/ClearCorrect. BS Nguyễn Bảo Yến - chuyên gia chỉnh nha theo triết lý Sato và kỹ thuật MEAW. Hỗ trợ trọn đời sau điều trị."
+    },
+    "implant": {
+      "title": "Cấy Ghép Implant - Nha Khoa Passion Đà Nẵng",
+      "description": "Cấy ghép implant chuyên nghiệp tại Nha Khoa Passion: BS CKI Đặng Hoàng Thanh Tùng - chuyên gia Implant, có chứng chỉ Zygomatic Implant. Trụ implant chính hãng Nobel/Straumann/Osstem, CT Cone Beam 3D, bảo hành trọn đời."
+    },
+    "porcelain": {
+      "title": "Răng Sứ Thẩm Mỹ - Nha Khoa Passion Đà Nẵng",
+      "description": "Răng sứ thẩm mỹ tại Nha Khoa Passion: dán sứ Veneer, bọc răng sứ Zirconia/Emax/Lava. Digital Smile Design (DSD), mài răng tối thiểu, vật liệu chính hãng có bảo hành. BS Nguyễn Bảo Yến trực tiếp thăm khám và thiết kế."
+    }
+  },
+  "booking": {
+    "title": "Đặt Lịch Hẹn - Liên Hệ Nha Khoa Passion Đà Nẵng",
+    "description": "Đặt lịch tư vấn miễn phí tại Nha Khoa Passion Đà Nẵng. Gặp các bác sĩ chuyên khoa, được tư vấn và lên kế hoạch điều trị cá nhân hóa. Thông tin được bảo mật hoàn toàn."
+  },
+  "diary": {
+    "title": "Nhật Ký Nụ Cười - Hình Ảnh & Đánh Giá Bệnh Nhân - Nha Khoa Passion",
+    "description": "Xem hình ảnh trước và sau thực tế từ các ca điều trị tại Nha Khoa Passion: implant, chỉnh nha, răng sứ, điều trị tổng quát. Video review và phản hồi chân thực từ bệnh nhân."
+  },
+  "blog": {
+    "title": "Blog & Kiến Thức Nha Khoa - Nha Khoa Passion",
+    "description": "Kiến thức nha khoa, mẹo chăm sóc răng miệng và thông tin về các phương pháp điều trị từ Nha Khoa Passion. Cập nhật thường xuyên về sức khỏe răng miệng."
+  }
+}
+

@@ -1,0 +1,47 @@
+{
+  "nav": {
+    "home": "HOME",
+    "about": "ABOUT",
+    "services": "SERVICES",
+    "smile_journal": "SMILE JOURNAL",
+    "knowledge": "DENTAL KNOWLEDGE",
+    "booking": "BOOK APPOINTMENT",
+    "sv": {
+      "general": "GENERAL DENTISTRY",
+      "ortho": "ORTHODONTICS",
+      "implant": "IMPLANT DENTISTRY",
+      "porcel": "PORCELAIN CROWNS"
+    }
+  },
+  "footer": {
+    "contact": {
+      "title": "Contact Information",
+      "address": "262 Nguyen Van Linh Street, Thanh Khe District, Da Nang City",
+      "phone": "+84 70 499 3579",
+      "email": "nhakhoapassion@gmail.com",
+      "hours": "Working Hours: Monday – Sunday | 8:00 AM – 5:00 PM"
+    },
+    "services": {
+      "title": "Featured Services",
+      "line1": "General Dentistry",
+      "line2": "Dental Implants",
+      "line3": "Aesthetic Orthodontics",
+      "line4": "Porcelain Crowns"
+    },
+    "quicklinks": {
+      "title": "Quick Links",
+      "items": {
+        "appointment": "Book Appointment",
+        "home": "Back to Home"
+      }
+    },
+    "bottom": {
+      "short": "© {year} Passion Dental"
+    }
+  },
+  "toast": {
+    "loading": "Sending your appointment request...",
+    "success": "Submitted successfully! We will contact you shortly.",
+    "error": "Submission failed. Please try again later!"
+  }
+}

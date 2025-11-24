@@ -1,0 +1,56 @@
+{
+  
+  "banner": "vBanner.jpg",
+  "doc": "vDoc.png",
+  "title": "Liên hệ Nha khoa Passion",
+  "desc": "Để được gặp các bác sĩ chuyên khoa, trước tiên bạn cần liên hệ và đặt lịch hẹn trước với Nha khoa Passion Đà Nẵng. Điều này giúp bạn chủ động hơn về thời gian đến thăm khám.",
+  "title1": "Đặt lịch khám tại",
+  "title2": "Passion Dental",
+  "desc1": "Thông tin của quý khách sẽ được chuyển đến chuyên viên tư vấn của Nha khoa Dana. Nhân viên chúng tôi sẽ liên lạc lại cho quý khách trong thời gian sớm nhất. Chúng tôi cam kết thông tin của quý khách sẽ được bảo mật hoàn toàn.",
+  "form": {
+    "name": "Họ và tên",
+    "phone": "Số điện thoại",
+    "email": "Email",
+    "emailPlaceholder": "Điền email ( không bắt buộc )",
+    "date": "Chọn ngày",
+    "time": "Chọn giờ",
+    "timePlaceholder": "Chọn giờ (08:00 - 17:00)",
+
+    "service": {
+      "title": "Chọn dịch vụ",
+      "options": {
+        "advise": "Tư vấn nha khoa",
+        "implant": "Trồng răng Implant",
+        "orthodontics": "Chỉnh nha (niềng răng)",
+        "crowns": "Răng sứ",
+        "extraction": "Nhổ răng",
+        "filling": "Trám răng",
+        "cleaning": "Lấy cao răng",
+        "whitening": "Tẩy trắng răng",
+        "root_canal": "Chữa tủy",
+        "gingivitis": "Điều trị viêm nướu",
+        "periodontitis": "Điều trị nha chu",
+        "gummy_smile": "Điều trị cười hở lợi"
+      }
+    },
+    "message": "Lời nhắn",
+    "submit": "Đặt lịch hẹn"
+  },
+  "validation": {
+    "nameRequired": "Vui lòng nhập họ và tên",
+    "phoneRequired": "Vui lòng nhập số điện thoại",
+    "phoneInvalid": "Số điện thoại không hợp lệ",
+    "emailInvalid": "Email không hợp lệ",
+    
+    "dateRequired": "Vui lòng chọn ngày",
+    "timeRequired": "Vui lòng chọn giờ",
+    "timeRange": "Giờ hẹn không hợp lệ. Vui lòng chọn giờ từ 08:00 đến 17:00.",
+    "serviceRequired": "Vui lòng chọn dịch vụ",
+    "formError": "Vui lòng kiểm tra lại thông tin đã nhập"
+  },
+  "toast": {
+    "success": "Đặt lịch hẹn thành công! Chúng tôi sẽ liên hệ với bạn sớm nhất.",
+    "error": "Đã có lỗi xảy ra. Vui lòng thử lại sau.",
+    "loading": "Đang gửi yêu cầu..."
+  }
+}

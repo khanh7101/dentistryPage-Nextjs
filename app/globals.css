@@ -1,26 +1,515 @@
 @import "tailwindcss";
 
+/* ====================================
+   Root variables (light & dark ready)
+   ==================================== */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Layout */
+  --container: 1400px; /* Max readable width on desktop */
+
+  /* Colors */
+  /* --brand: #0d2144;
+  --title: #10388c;
+  --title2: #d2de02;
+  --bgButton: #2a58ff;
+  --btnHover: #24315a;
+  --note: #bfdbfe;
+  --index: #6b7280; */
+
+  /* --fg: #0f172a; 
+  --fg-muted: #334155; 
+  --bg: #ffffff;
+  --card: #ffffff;
+  --ring: 33 150 243;  */
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+/* ====================================
+   Tailwind v4 Theme Configuration
+   ==================================== */
+@theme {
+  --color-brand: #0d2144;
+  --color-brand-dark: #0a1a33;
+  --color-title: #10388c;
+  --color-title2: #d2de02;
+  --color-bgButton: #2a58ff;
+  --color-btnHover: #24315a;
+  --color-note: #bfdbfe;
+  --color-index: #6b7280;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --fg: #e2e8f0; /* slate-200 */
+    --fg-muted: #94a3b8; /* slate-400 */
+    --bg: #0b1220; /* slate-950-ish */
+    --card: #0f172a; /* slate-900 */
+    --card-border: #1f2937; /* slate-800 */
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+/* Optional: App-level dark theme toggle via [data-theme="dark"] */
+/* html[data-theme="dark"] { ...duplicate dark vars if you use a manual switch... } */
+
+/* ====================================
+   Base resets & typography polish
+   ==================================== */
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    * {
+      animation: none !important;
+      transition: none !important;
+    }
+  }
+}
+
+/* ====================================
+   Layout containers (responsive)
+   ==================================== */
+@layer components {
+  /* Đảm bảo .container được center đúng cách */
+  .container {
+    margin-inline: auto;
+  }
+
+  /* Chỉ giữ lại các container biến thể */
+  .container-narrow {
+    width: min(900px, 100%);
+    margin-inline: auto;
+    padding-inline: 1rem;
+    padding: 2rem 0;
+  }
+
+  .container-wide {
+    width: min(1600px, 100%);
+    margin-inline: auto;
+    padding-inline: 1rem;
+    padding: 3rem 0;
+  }
+
+  @media (max-width: 640px) {
+    .container-narrow,
+    .container-wide {
+      padding: 1rem;
+    }
+  }
+
+  /* Full-bleed utility for banners/hero sections */
+  .full-bleed {
+    width: 100vw;
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+/* ====================================
+   Cards
+   ==================================== */
+@layer components {
+  .card {
+    border-radius: 1rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    border: 1px solid var(--color-brand);
+  }
+
+  .card-hover {
+    transition: box-shadow 0.2s ease;
+  }
+  .card-hover:hover {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+}
+
+/* ====================================
+   Buttons (sizes + variants)
+   ==================================== */
+@layer components {
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    border-radius: 0.75rem;
+    font-weight: 500;
+    padding: clamp(0.5rem, 2vw, 0.75rem) clamp(1rem, 3vw, 1.5rem);
+    transition: all 0.2s ease;
+    cursor: pointer;
+    color: #fff;
+    background-color: var(--color-bgButton);
+  }
+
+  /* .btn:hover {
+    background-color: var(--brand-dark);
+    transform: translateY(-1px);
+    background-color: var(--btnHover);
+  } */
+
+  .btn:disabled {
+    opacity: 0.6;
+    pointer-events: none;
+  }
+
+  .btn-sm {
+    padding: clamp(0.375rem, 1.5vw, 0.5rem) clamp(0.75rem, 2vw, 1rem);
+    font-size: clamp(0.875rem, 1.5vw, 1rem);
+    border-radius: 0.5rem;
+  }
+  .btn-lg {
+    padding: clamp(0.75rem, 2.5vw, 1rem) clamp(1.25rem, 4vw, 2rem);
+    font-size: clamp(1rem, 2vw, 1.25rem);
+    border-radius: 1rem;
+  }
+
+  @media (hover: hover) {
+    .btn:hover {
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+      background-color: var(--color-btnHover);
+      transform: translateY(-1px);
+    }
+  }
+  @media (max-width: 768px) {
+    .btn {
+      width: 70%;
+    }
+  }
+  @media (max-width: 640px) {
+    .btn {
+      width: 90%;
+      border-radius: 0.5rem;
+    }
+  }
+  /* .btn-icon {
+    @apply p-2 rounded-lg;
+    width: 2.5rem;
+    height: 2.5rem;
+  } */
+
+  /* .btn-outline {
+    @apply bg-transparent;
+    color: var(--title);
+    border: 1px solid var(--brand);
+  }
+  .btn-outline:hover {
+    background-color: var(--bgButton);
+    color: #fff;
+    border-color: var(--brand-dark);
+  } */
+
+  /* .btn-ghost {
+    background-color: transparent;
+    color: var(--title);
+  }
+  .btn-ghost:hover {
+    background-color: var(--note);
+    color: var(--brand);
+  } */
+
+  .btn > svg {
+    flex-shrink: 0;
+  }
+}
+
+/* ====================================
+   Links
+   ==================================== */
+@layer components {
+  .link {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    transition: color 0.2s ease;
+    text-decoration-color: var(--color-title);
+    color: var(--color-title);
+  }
+  .link:hover {
+    color: var(--color-bgButton);
+  }
+}
+
+/* ====================================
+   Sections / Titles / Text helpers
+   ==================================== */
+@layer utilities {
+  .section {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  
+  @media (min-width: 1280px) {
+    .section {
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+    }
+  }
+
+  .title {
+    font-size: clamp(1.25rem, 5vw, 2rem);
+    line-height: 1.2;
+    font-weight: 600;
+    color: var(--color-title);
+  }
+  .subtitle {
+    font-size: clamp(1rem, 3vw, 1.5rem);
+    line-height: 1.4;
+    font-weight: 500;
+    color: var(--color-title2);
+  }
+  .lead {
+    font-size: clamp(0.875rem, 2vw, 1.125rem);
+    line-height: 1.6;
+    color: var(--color-index);
+  }
+
+  @media (min-width: 768px) {
+    .title {
+      font-size: clamp(1.5rem, 4vw, 2.5rem);
+    }
+    .subtitle {
+      font-size: clamp(1.125rem, 2.5vw, 1.75rem);
+    }
+    .lead {
+      font-size: clamp(1rem, 2vw, 1.25rem);
+    }
+  }
+
+  /* Clamp-based fluid headings (optional, nice for hero) */
+  .h1-fluid {
+    font-size: clamp(1.75rem, 2.5vw + 1rem, 3rem);
+    line-height: 1.1;
+  }
+  .h2-fluid {
+    font-size: clamp(1.375rem, 1.5vw + 1rem, 2.125rem);
+    line-height: 1.2;
+  }
+}
+
+/* ====================================
+   Grid helpers
+   ==================================== */
+@layer utilities {
+}
+
+/* ====================================
+   Media helpers
+   ==================================== */
+@layer utilities {
+  .aspect-hero {
+    aspect-ratio: 16 / 9;
+  }
+}
+
+/* ====================================
+   Header/Footer patterns
+   ==================================== */
+@layer components {
+  .site-header,
+  .site-footer {
+    width: 100vw;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    background: var(--color-brand);
+    color: #fff;
+  }
+}
+
+/* ====================================
+   Forms (quick sensible defaults)
+   ==================================== */
+/* @layer components {
+  .input,
+  .select,
+  .textarea {
+    width: 100%;
+    border-radius: 0.75rem;
+    border: 1px solid var(--brand);
+    background-color: #fff;
+    padding: clamp(0.5rem, 2vw, 0.75rem) clamp(0.75rem, 2vw, 1rem);
+    color: var(--brand);
+    font-size: clamp(0.875rem, 2vw, 1rem);
+  }
+
+  .input:focus,
+  .select:focus,
+  .textarea:focus {
+    outline: none;
+    border-color: var(--bgButton);
+    box-shadow: 0 0 0 2px rgba(42, 88, 255, 0.2);
+  }
+
+  .textarea {
+    min-height: 120px;
+    resize: vertical;
+  }
+
+  .label {
+    display: block;
+    font-size: clamp(0.875rem, 1.5vw, 1rem);
+    font-weight: 500;
+    color: var(--title);
+    margin-bottom: 0.5rem;
+  }
+
+  .help {
+    margin-top: 0.25rem;
+    font-size: clamp(0.75rem, 1.5vw, 0.875rem);
+    color: var(--index);
+  }
+
+  @media (max-width: 640px) {
+    .input,
+    .select,
+    .textarea {
+      font-size: 16px; 
+    }
+  }
+} */
+
+input[type="date"],
+input[type="time"],
+select {
+  color: #94a3b8; /* slate-400: default = placeholder color */
+}
+
+/* Khi người dùng đã chọn giá trị */
+input[type="date"]:valid,
+input[type="time"]:valid,
+select:valid {
+  color: #0f172a; /* slate-900: normal text */
+}
+
+/* Đảm bảo placeholder của option đầu tiên (Select Service) hiển thị màu xám */
+select:has(option[value=""]:checked) {
+  color: #94a3b8;
+}
+
+/* Fix cho Safari iOS (vì :has đôi khi chưa hỗ trợ hoàn toàn) */
+@supports not (selector(:has(*))) {
+  select:invalid {
+    color: #94a3b8;
+  }
+}
+
+/* ====================================
+   Utilities you'll actually use a lot
+   ==================================== */
+@layer utilities {
+  .hr {
+    margin: 2rem 0;
+    height: 1px;
+    border: 0;
+    background: linear-gradient(90deg, transparent, var(--color-brand), transparent);
+  }
+
+  /* Prose styling for content */
+  .prose-content {
+  text-align: justify;
+  hyphens: auto;
+  margin-inline: auto;
+}
+
+.prose-content.disable h2,
+.prose-content.disable h4,
+.prose-content.disable p,
+.prose-content.disable li {
+  all: unset;
+  display: block;
+}
+
+/* --- Tiêu đề --- */
+.prose-content h2 {
+  font-size: clamp(1.5rem, 2.5vw, 1.875rem);
+  line-height: 1.3;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.prose-content h4 {
+  font-size: clamp(1.15rem, 1.3vw, 1.15rem);
+  line-height: 1.4;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: var(--color-brand);
+  margin-top: 1rem;
+}
+
+/* --- Đoạn văn --- */
+.prose-content p {
+  margin-top: 0.75rem;
+  font-size: clamp(1rem, 1.2vw, 1.125rem);
+  line-height: 1.75;
+  color: #333;
+}
+
+.prose-content li {
+  margin-top: 0.3rem;
+  font-size: clamp(1rem, 1.1vw, 1.125rem); 
+  line-height: 1.6; 
+  list-style-type: none;
+}
+
+
+
+/* --- Danh sách, liên kết, nhấn mạnh --- */
+/* .prose-content ul,
+.prose-content ol {
+  margin-top: 0.75rem;
+  margin-left: 1.5rem;
+  line-height: 1.75;
+} */
+
+/* .prose-content strong {
+  font-weight: 600;
+  color: var(--title, #0d2144);
+} */
+
+/* .prose-content a {
+  color: var(--brand, #2a58ff);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: color 0.2s ease;
+} */
+
+  /* .prose-content a:hover {
+    color: #10388c;
+  } */
+
+/* --- Mobile tối ưu --- */
+@media (max-width: 480px) {
+  .prose-content {
+    text-align: left;
+    padding-inline: 1rem;
+  }
+}
+
+
+  /* Section title styling */
+  .section-title {
+    display: inline-block;
+    font-size: 1.875rem;
+    font-weight: 600;
+    color: var(--color-title);
+    margin-bottom: 2rem;
+    position: relative;
+  }
+
+  .section-title::after {
+    content: "";
+    position: absolute;
+    left: 25%;
+    bottom: -0.5rem;
+    height: 3px;
+    width: 50%;
+    background-color: var(--color-title2);
+    border-radius: 9999px;
+  }
 }

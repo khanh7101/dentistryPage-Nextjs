@@ -1,0 +1,42 @@
+{
+  "home": {
+    "title": "Passion Dental – Professional Dental Care in Da Nang",
+    "description": "Passion Dental provides comprehensive dental services in Da Nang, including dental implants, orthodontics, porcelain restorations, and general dentistry. Professional care supported by advanced technology and an experienced team of dentists."
+  },
+  "about": {
+    "title": "About Passion Dental – Professional Dental Specialists in Da Nang",
+    "description": "Passion Dental is led by Specialist Level I Dr. Dang Hoang Thanh Tung – Implant expert, and Dr. Nguyen Bao Yen – Orthodontic specialist. With a Right – Sufficient – Beautiful treatment philosophy, we are committed to long-lasting and sustainable results."
+  },
+  "services": {
+    "title": "Dental Services – Passion Dental Da Nang",
+    "description": "Comprehensive dental services at Passion Dental: orthodontics (braces), dental implants, aesthetic porcelain restorations, and general dentistry. FDA/CE-approved materials and Ministry of Health–standard sterilization protocols.",
+    "general": {
+      "title": "General Dentistry – Passion Dental Da Nang",
+      "description": "General dentistry at Passion Dental: teeth cleaning, aesthetic fillings, root canal treatment, wisdom tooth extraction, periodontal therapy, teeth whitening, and gummy smile treatment. Comprehensive diagnostics with strict safety protocols."
+    },
+    "orthodontic": {
+      "title": "Orthodontics (Braces) – Passion Dental Da Nang",
+      "description": "Professional orthodontic treatment at Passion Dental: metal/ceramic braces and clear aligners (Invisalign/ClearCorrect). Dr. Nguyen Bao Yen specializes in the Sato philosophy and MEAW technique. Lifetime support after treatment."
+    },
+    "implant": {
+      "title": "Dental Implants – Passion Dental Da Nang",
+      "description": "Professional implant dentistry at Passion Dental: Specialist Level I Dr. Dang Hoang Thanh Tung – Implant expert with Zygomatic Implant certification. Genuine implant systems from Nobel/Straumann/Osstem, 3D Cone Beam CT, and lifetime warranty."
+    },
+    "porcelain": {
+      "title": "Aesthetic Porcelain Restorations – Passion Dental Da Nang",
+      "description": "Aesthetic porcelain restorations at Passion Dental: porcelain veneers, zirconia/Emax/Lava crowns. Digital Smile Design (DSD), minimally invasive preparation, and genuine materials with warranty. Personally examined and designed by Dr. Nguyen Bao Yen."
+    }
+  },
+  "booking": {
+    "title": "Book an Appointment – Contact Passion Dental Da Nang",
+    "description": "Schedule a free consultation at Passion Dental Da Nang. Meet our specialists, receive personalized treatment planning, and enjoy fully confidential information handling."
+  },
+  "diary": {
+    "title": "Smile Journal – Patient Photos & Reviews – Passion Dental",
+    "description": "Explore real before-and-after cases at Passion Dental: implants, orthodontics, porcelain restorations, and general treatments. Authentic patient video reviews and testimonials."
+  },
+  "blog": {
+    "title": "Dental Blog & Oral Health Knowledge – Passion Dental",
+    "description": "Dental knowledge, oral care tips, and treatment insights from Passion Dental. Regularly updated with professional oral health information."
+  }
+}

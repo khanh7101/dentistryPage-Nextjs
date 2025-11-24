@@ -2,6 +2,24 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
+### Environment Variables
+
+This project requires EmailJS configuration for the booking form. Create a `.env.local` file in the root directory with the following variables:
+
+```env
+NEXT_PUBLIC_EMAILJS_SERVICE_ID=your_service_id_here
+NEXT_PUBLIC_EMAILJS_TEMPLATE_ID=your_template_id_here
+NEXT_PUBLIC_EMAILJS_PUBLIC_KEY=your_public_key_here
+```
+
+To get these values:
+1. Sign up at [EmailJS](https://www.emailjs.com/)
+2. Go to your dashboard
+3. Create a service and template
+4. Copy the Service ID, Template ID, and Public Key to your `.env.local` file
+
+### Development Server
+
 First, run the development server:
 
 ```bash

@@ -1,0 +1,47 @@
+{
+  "nav": {
+    "home": "TRANG CHỦ",
+    "about": "GIỚI THIỆU",
+    "services": "DỊCH VỤ",
+    "smile_journal": "NHẬT KÝ NỤ CƯỜI",
+    "knowledge": "KIẾN THỨC ",
+    "booking": "ĐẶT LỊCH HẸN",
+    "sv": {
+      "general": "ĐIỀU TRỊ TỔNG QUÁT",
+      "ortho": "NIỀNG RĂNG",
+      "implant": "CẤY GHÉP IMPLANT",
+      "porcel": "RĂNG SỨ"
+    }
+  },
+  "footer": {
+    "contact": {
+      "title": "Thông tin liên hệ",
+      "address": "262 Nguyễn Văn Linh - phường Thanh Khê - thành phố Đà Nẵng",
+      "phone": "+84 70 499 3579",
+      "email": "nhakhoapassion@gmail.com",
+      "hours": "Giờ làm việc: Thứ 2 (Mon) - Chủ Nhật (Sun) | 8:00-17:00"
+    },
+    "services": {
+      "title": "Dịch vụ nổi bật",
+      "line1": "Điều trị tổng quát",
+      "line2": "Cấy ghép Implant",
+      "line3": "Niềng răng thẩm mỹ",
+      "line4": "Răng sứ thẩm mỹ"
+    },
+    "quicklinks": {
+      "title": "Liên kết nhanh",
+      "items": {
+        "appointment": "Đặt lịch hẹn",
+        "home": "Về trang chủ"
+      }
+    },
+    "bottom": {
+      "short": "© {year} Passion Dental"
+    }
+  },
+  "toast": {
+    "loading": "Đang gửi yêu cầu đặt lịch của bạn...",
+    "success": "Gửi thành công! Chúng tôi sẽ liên hệ sớm nhất.",
+    "error": "Gửi thất bại. Vui lòng thử lại sau!"
+  }
+}

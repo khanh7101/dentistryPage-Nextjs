@@ -1,0 +1,44 @@
+{
+  "banner": "eBanner.jpg",
+  "title": "About Passion Dental",
+  "index1": {
+    "title": "1. Our Mission & Treatment Philosophy",
+    "desc": "<strong>Passion Dental</strong> is built on doing what’s right for you from the very beginning, and ensuring stable, long-lasting results. We believe a good dental plan should not only look good instantly but also suit your gums, oral habits, and lifestyle. Our philosophy is <strong>Right – Sufficient – Beautiful</strong>: accurately diagnosing the problem, recommending only what is necessary for long-term function and aesthetics, based on evidence-based dentistry and long-term case data."
+  },
+  "index2": {
+    "title": "2. Specialist-Led Clinical Expertise",
+    "desc1": "Dr. Tung is a leading expert in Implant Dentistry and Prosthodontics, from routine cases to complex situations such as bone deficiency, full-arch rehabilitation, or transitioning from dental bridges to implants. His strength lies in delivering <strong>transparent and structured</strong> treatment plans with clear timelines and evaluation criteria for each phase, helping patients feel fully informed and confident.",
+    "desc2": {
+      "title": "Proven Expertise & Professional Credentials:",
+      "li1": "<strong>Specialist Level I – Dr. Dang Hoang Thanh Tung</strong> is one of the few clinicians in Da Nang certified in Zygomatic Implant treatment. This advanced technique is the key solution for restoring chewing function in cases of severe maxillary bone loss where conventional implants are not possible.",
+      "li2": "With experience as the Former Head of the Odonto-Stomatology Department at Gia Dinh General Hospital and as a member of international organizations such as ITI – International Team for Implantology, Dr. Tung consistently updates his knowledge based on clinical evidence and professional ethics.",
+      "li3": "He is frequently invited to speak at reputable academic conferences."
+    }
+  },
+  "index3": {
+    "title": "3. Sterilization Safety & Advanced Technology",
+    "desc": "Passion follows a fully controlled sterilization system—from instrument processing, packaging, and traceability to strict protocols for all invasive procedures. Our modern diagnostic imaging system supports guided implant planning, minimizing trauma and speeding up recovery. Materials and equipment come with transparent information on origin, specifications, and manufacturer warranty policies."
+  },
+  "index4": {
+    "title": "4. Clinical Strengths: Implants & Orthodontics",
+    "desc1": "<strong>Implant Dentistry</strong> at Passion focuses on long-term stability: healthy bone integration, harmonious gum lines, functional occlusion, and easy long-term maintenance. For full-arch restorations or bridge-to-implant conversions, we prioritize phased treatment plans to manage risks and optimize final outcomes.",
+    "desc2": "<strong>Orthodontics (Invisalign/braces)</strong> is personalized based on bone structure, soft tissue, and hygiene habits to achieve a balanced smile line, stable bite, and long-lasting results after treatment."
+  },
+  "index5": {
+    "title": "5. Our 4-Step Workflow",
+    "desc1": "<strong>(1) Consultation & Examination:</strong> data collection and defining realistic treatment goals.",
+    "desc2": "<strong>(2) Personalized Blueprint:</strong> presenting three options with clear pros/cons and cost estimates.",
+    "desc3": "<strong>(3) Phased Treatment:</strong> progress monitoring and adjustments when needed to optimize healing.",
+    "desc4": "<strong>(4) Handover & Maintenance:</strong> detailed home-care instructions, follow-up scheduling, and periodic evaluations.",
+    "note": "Note: At every step, Passion explains why each intervention is recommended, so you clearly understand risks, benefits, and can make informed decisions."
+  },
+  "index6": {
+    "title": "6. Ongoing Care After Treatment",
+    "desc": "Dental results are truly complete only when they are properly maintained. Passion proactively sends gentle reminders, schedules follow-ups, and monitors key indicators such as plaque levels, gum health, and occlusion. If anything unusual arises, our team responds promptly with solutions and clear guidance so you feel supported at all times."
+  },
+  "index7": {
+    "title": "7. For International Patients",
+    "desc1": "Da Nang offers convenient travel and accommodation options. Passion’s International Patient Hub supports remote consultations, review of records (photos, scans), and time-compressed treatment schedules. We provide multilingual service, clearly explaining treatment plans, costs, and timelines, and continue monitoring through online channels so you feel secure even after returning home.",
+    "desc2": "Looking for a clear plan, transparent pricing, and a doctor who accompanies you long after treatment? Visit Passion Dental for the most suitable treatment solution tailored to you. We explain everything clearly, guide you step-by-step, and take full responsibility for long-lasting results!"
+    }
+}

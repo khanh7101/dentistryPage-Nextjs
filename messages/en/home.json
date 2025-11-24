@@ -1,0 +1,67 @@
+{
+  "title": "Passion Dental – Professional Dental Care in Da Nang",
+  "desc": "Passion Dental offers comprehensive dental care in Da Nang, including dental implants, orthodontics, porcelain restorations, and general dentistry. Professional care with modern technology and an experienced team of dentists.",
+  "banner": "eBanner.jpg",
+  "about": {
+    "img": "eAbout.png",
+    "title": "ABOUT PASSION DENTAL",
+    "title1": "Passion Dental – Implant Specialists in Da Nang:",
+    "title2": "Advanced Treatment, Long-Lasting Results",
+    "desc": "At Passion, we believe dental care should be a comprehensive solution — right from the start and sustainable in the long run. With the Passion Blueprint, you receive a personalized treatment plan tailored to your oral condition, preferences, and budget, along with transparent cost estimates and alternative options. We combine advanced technology with attentive care to ensure your experience is comfortable and stress-free. Our focus is always on your long-term oral health, delivering a truly beautiful and lasting smile.",
+    "litTile": "AT PASSION, WE COMMIT TO PEACE OF MIND FROM THE VERY FIRST STEP:",
+    "lit1": "Treatment by dedicated and experienced dentists",
+    "lit2": "Clear and transparent warranty policies.",
+    "lit3": "100% free consultation via online records and in-person visits (supporting both local and international patients).",
+    "btn": "LEARN MORE ABOUT PASSION"
+  },
+  "team": {
+    "title": "OUR DENTAL TEAM",
+    "doc1": {
+      "img": "eDoc1.png",
+      "name": "SPECIALIST LEVEL I – DR. DANG HOANG THANH TUNG",
+      "desc": "Expert in full-arch implant rehabilitation, wisdom tooth surgery, oral and maxillofacial procedures, gummy smile treatment, Digital Smile Design, and aesthetic dental restorations.",
+      "li1": "Former Head of the Odonto-Stomatology Department at Gia Dinh General Hospital.",
+      "li2": "Member of the International Team for Implantology (ITI).",
+      "li3": "Graduated with Distinction in Dentistry – Hue University of Medicine and Pharmacy (2010–2016).",
+      "li4": "Specialist Level I – Hue University of Medicine and Pharmacy, 2023.",
+      "li5": "Certificate in Dental Implantology – 2018 – National Hospital of Odonto-Stomatology, Ho Chi Minh City.",
+      "li6": "Certificate in Zygomatic Implant Treatment for severe maxillary bone loss – 2023 – National Hospital of Odonto-Stomatology, Ho Chi Minh City.",
+      "btn": "Book a 1:1 Consultation with Dr. Thanh Tung"
+    },
+    "doc2": {
+      "img": "eDoc2.png",
+      "name": "DR. NGUYEN BAO YEN",
+      "desc": "Dr. Bao Yen is a dedicated specialist in Advanced Orthodontics and General Dentistry, always prioritizing patient well-being and long-term oral health.",
+      "li1": "Graduated in Dentistry – Hue University of Medicine and Pharmacy (2010–2016).",
+      "li2": "Functional orthodontics using the Sato philosophy and MEAW technique.",
+      "li3": "Clinical orthodontics from philosophy to practice.",
+      "li4": "Certified Invisalign Provider.",
+      "li5": "Certified Clear Correct Provider.",
+      "li6": "License for Professional Practice in Dentistry.",
+      "li7": "Certificate in Infection Control for Dental Facilities.",
+      "btn": "Book a 1:1 Consultation with Dr. Bao Yen"
+    }
+  },
+  "faServices": {
+    "title": "POPULAR SERVICES AT PASSION DENTAL DA NANG",
+    "service1": "Orthodontics",
+    "desc1": "Helps align teeth to the correct position, improving chewing function and enhancing smile aesthetics.",
+    "service2": "Porcelain Crowns",
+    "desc2": "Full-porcelain restorations that not only enhance the aesthetics of teeth with defects but also offer exceptional durability.",
+    "service3": "Tooth Extraction",
+    "desc3": "A treatment solution to remove decayed, damaged, loose, or impacted teeth that cannot be preserved.",
+    "service4": "Dental Implants",
+    "desc4": "The most advanced solution to replace missing teeth without affecting the surrounding natural teeth.",
+    "btn": "VIEW ALL SERVICES"
+  },
+  "cusImg": {
+    "title": "OUR PATIENTS"
+  },
+  "cusReviews": {
+    "title": "WHAT OUR PATIENTS SAY ABOUT US"
+  },
+  "bookingMap": {
+    "title": "BOOK AN APPOINTMENT",
+    "desc": "Book now for early consultation and treatment."
+  }
+}

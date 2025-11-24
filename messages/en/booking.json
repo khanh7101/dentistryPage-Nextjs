@@ -1,0 +1,55 @@
+{
+  "banner": "eBanner.jpg",
+  "doc": "eDoc.png",
+  "title": "Contact Passion Dental",
+  "desc": "To meet with our specialist dentists, please reach out and schedule an appointment with Passion Dental Da Nang in advance. This helps you stay proactive and better manage your time for your visit.",
+  "title1": "Book an Appointment at",
+  "title2": "Passion Dental",
+  "desc1": "Your information will be forwarded to Passion Dental’s consultation team. Our staff will contact you as soon as possible. We are committed to keeping your information strictly confidential.",
+  "form": {
+    "name": "Full Name",
+    "phone": "Phone Number",
+    "email": "Email",
+    "emailPlaceholder": "Enter your email (optional)",
+    "date": "Select Date",
+    "time": "Select Time",
+    "timePlaceholder": "Choose a time (08:00 - 17:00)",
+
+    "service": {
+      "title": "Select Service",
+      "options": {
+        "advise": "Dental Consultation",
+        "implant": "Dental Implant",
+        "orthodontics": "Orthodontics (Braces)",
+        "crowns": "Dental Crowns",
+        "extraction": "Tooth Extraction",
+        "filling": "Tooth Filling",
+        "cleaning": "Teeth Cleaning",
+        "whitening": "Teeth Whitening",
+        "root_canal": "Root Canal Treatment",
+        "gingivitis": "Gingivitis Treatment",
+        "periodontitis": "Periodontal Treatment",
+        "gummy_smile": "Gummy Smile Treatment"
+      }
+    },
+    "message": "Message",
+    "submit": "Book Appointment"
+  },
+  "validation": {
+    "nameRequired": "Please enter your full name",
+    "phoneRequired": "Please enter your phone number",
+    "phoneInvalid": "Invalid phone number",
+    "emailInvalid": "Invalid email address",
+
+    "dateRequired": "Please select a date",
+    "timeRequired": "Please select a time",
+    "timeRange": "Invalid appointment time. Please choose a time between 08:00 and 17:00.",
+    "serviceRequired": "Please select a service",
+    "formError": "Please check the information you entered"
+  },
+  "toast": {
+    "success": "Appointment booked successfully! We will contact you soon.",
+    "error": "An error occurred. Please try again later.",
+    "loading": "Sending request..."
+  }
+}

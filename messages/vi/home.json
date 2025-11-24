@@ -1,0 +1,67 @@
+{
+  "title": "Nha Khoa Passion - Chăm Sóc Răng Miệng Chuyên Nghiệp Tại Đà Nẵng",
+  "desc": "Nha Khoa Passion cung cấp dịch vụ nha khoa toàn diện tại Đà Nẵng bao gồm cấy ghép implant, chỉnh nha, răng sứ và điều trị tổng quát. Chăm sóc chuyên nghiệp với công nghệ hiện đại, đội ngũ bác sĩ giàu kinh nghiệm.",
+  "banner": "vBanner.jpg",
+  "about": {
+    "img": "vAbout.png",
+    "title": "VỀ NHA KHOA PASSION",
+    "title1": "Nha khoa Passion – Chuyên gia Implant tại Đà Nẵng: ",
+    "title2": "Điều trị chuyên sâu, kết quả bền vững",
+    "desc": "Tại Passion, chúng tôi tin rằng chăm sóc răng miệng nên là một giải pháp toàn diện: ngay từ đầu và bền vững lâu dài. Với Passion Blueprint, bạn sẽ nhận được một kế hoạch điều trị được cá nhân hóa, phù hợp với tình trạng răng miệng, sở thích và ngân sách của bạn, cùng với ước tính chi phí minh bạch và các lựa chọn thay thế. Chúng tôi kết hợp công nghệ tiên tiến với dịch vụ chăm sóc tận tâm để đảm bảo trải nghiệm của bạn thoải mái và không căng thẳng. Trọng tâm của chúng tôi luôn là sức khỏe răng miệng lâu dài của bạn, mang lại nụ cười đẹp và khỏe mạnh thực sự lâu dài.",
+    "litTile": "TẠI PASSION, CHÚNG TÔI CAM KẾT SỰ AN TÂM TỪ BƯỚC ĐẦU TIÊN:",
+    "lit1": "Điều trị bởi bác sĩ tận tâm, giàu kinh nghiệm",
+    "lit2": "Chính sách bảo hành rõ ràng.",
+    "lit3": "Tư vấn miễn phí 100% qua hồ sơ trực tuyến và trực tiếp (hỗ trợ tư vấn cho các khách trong và ngoài nước.)",
+    "btn": "TÌM HIỂU THÊM VỀ PASSION"
+  },
+  "team": {
+    "title": "ĐỘI NGŨ BÁC SĨ",
+    "doc1": {
+      "img": "vDoc1.png",
+      "name": "BS CKI ĐẶNG HOÀNG THANH TÙNG",
+      "desc": "Chuyên gia cấy ghép implant toàn hàm, phẫu thuật răng khôn, phẫu thuật miệng và hàm mặt, điều trị cười hở lợi, Digital Smile Design, phục hình thẩm mỹ nha khoa…",
+      "li1": "Nguyên trưởng khoa RHM Bệnh viện đa khoa Gia Đình.",
+      "li2": "Thành viên Hiệp hội Implant quốc tế ITI (International Team for Implantology).",
+      "li3": "Tốt nghiệp bằng giỏi bác sĩ RHM Đại học Y dược Huế 2010–2016.",
+      "li4": "Bằng chuyên khoa I – Đại học Y Dược Huế năm 2023.",
+      "li5": "Chứng chỉ cấy ghép Implant nha khoa – 2018 – Bệnh viện RHM TW – Tp HCM.",
+      "li6": "Chứng chỉ điều trị cấy ghép Implant xương gò má cho bệnh nhân mất răng xương hàm trên giai đoạn cuối – 2023 – BV RHM TW – Tp HCM.",
+      "btn": "Đặt lịch tư vấn 1:1 cùng Bác sĩ Thanh Tùng"
+    },
+    "doc2": {
+      "img": "vDoc2.png",
+      "name": "BS NGUYỄN BẢO YẾN",
+      "desc": "Bác sĩ Bảo Yến là chuyên gia tận tâm trong lĩnh vực Chỉnh nha chuyên sâu và Nha khoa Tổng quát, người luôn đặt lợi ích và nụ cười khỏe mạnh lâu dài của bệnh nhân lên ưu tiên hàng đầu.",
+      "li1": "Tốt nghiệp bác sĩ RHM Đại học Y Huế năm 2010–2016.",
+      "li2": "Chỉnh nha chức năng theo triết lý Sato và kỹ thuật MEAW.",
+      "li3": "Chỉnh nha lâm sàng từ triết lý đến kỹ thuật.",
+      "li4": "Chứng nhận hoàn thành khóa học Chỉnh nha với khay trong Invisalign.",
+      "li5": "Chứng nhận hoàn thành khóa học Chỉnh nha với khay trong Clear Correct.",
+      "li6": "Chứng chỉ hành nghề khám chữa bệnh Răng Hàm Mặt.",
+      "li7": "Chứng chỉ Kiểm soát nhiễm khuẩn ở cơ sở khám chữa bệnh Răng Hàm Mặt.",
+      "btn": "Đặt lịch tư vấn 1:1 cùng Bác sĩ Bảo Yến"
+    }
+  },
+  "faServices": {
+    "title": "DỊCH VỤ ĐƯỢC YÊU THÍCH TẠI NHA KHOA PASSION ĐÀ NẴNG",
+    "service1": "Chỉnh nha",
+    "desc1": "Giúp điều chỉnh các răng về lại đúng hướng và vị trí giúp cải thiện khả năng ăn nhai và mang lại nụ cười đẹp hơn.",
+    "service2": "Răng Sứ",
+    "desc2": "Bọc răng toàn sứ – Không chỉ cải thiện thẩm mỹ cho hàm răng nhiều khuyết điểm nhanh chóng mà còn cực kì bền lâu.",
+    "service3": "Nhổ Răng",
+    "desc3": "Là giải pháp điều trị loại bỏ những chiếc răng sâu, hư, răng lung lay, răng khôn biến chứng... không thể bảo tồn.",
+    "service4": "Trồng Implant",
+    "desc4": "Đây là giải pháp hoàn hảo nhất giúp khôi phục lại răng đã mất mà không ảnh hưởng tới các răng còn lại.",
+    "btn": "XEM TẤT CẢ DỊCH VỤ"
+  },
+  "cusImg": {
+    "title": "KHÁCH HÀNG CỦA PASSION"
+  },
+  "cusReviews": {
+    "title": "KHÁCH HÀNG NÓI GÌ VỀ CHÚNG TÔI"
+  },
+  "bookingMap": {
+    "title": "ĐẶT LỊCH KHÁM",
+    "desc": "Đặt lịch ngay để được tư vấn và chữa trị sớm nhất"
+  }
+}

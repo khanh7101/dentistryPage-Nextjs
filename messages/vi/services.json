@@ -1,0 +1,257 @@
+{
+  "banner": "vBanner.jpg",
+  "bookingBtn": "ĐẶT LỊCH HẸN TƯ VẤN MIỄN PHÍ",
+  "service": {
+    "title1": "Giới thiệu",
+    "title2": "Các dịch vụ nổi bật",
+    "desc1": "Tại <strong>Nha khoa Passion</strong>, chúng tôi xem <em>chữ Tâm và chữ Tín</em> là nền tảng cho mọi dịch vụ. Mỗi ca điều trị đều được bắt đầu bằng sự tận tâm và kết thúc bằng sự hài lòng của khách hàng. Đội ngũ bác sĩ tại Passion là những người có chuyên môn vững vàng, được đào tạo bài bản trong và ngoài nước, có đầy đủ chứng chỉ hành nghề do Sở Y tế cấp và không ngừng cập nhật công nghệ nha khoa tiên tiến trên thế giới.",
+    "desc2": "<strong>Toàn bộ vật liệu và trang thiết bị</strong> tại phòng khám đều được nhập khẩu trực tiếp từ Mỹ và Châu Âu, <strong>đạt chuẩn FDA và CE</strong>, đảm bảo độ chính xác và an toàn tối đa. Hệ thống phòng điều trị vô trùng khép kín đáp ứng tiêu chuẩn Bộ Y tế, giúp khách hàng hoàn toàn yên tâm khi trải nghiệm.",
+    "desc3": "Chúng tôi luôn <strong>minh bạch trong chi phí và lộ trình điều trị</strong>, giúp khách hàng hiểu rõ từng bước, từng lựa chọn trước khi bắt đầu. Mỗi kế hoạch điều trị đều được cá nhân hóa theo tình trạng răng miệng và nhu cầu thẩm mỹ riêng, tối ưu cả chi phí và thời gian.",
+    "desc4": "Các dịch vụ của chúng tôi bao gồm từ chăm sóc phòng ngừa và phục hồi <strong>cơ bản đến các phương pháp điều trị rất phức tạp</strong> đòi hỏi các kỹ thuật chuyên biệt:",
+    "favService": {
+      "service1": "Niềng Răng",
+      "desc1": "Giúp điều chỉnh các răng về lại đúng hướng và vị trí giúp cải thiện khả năng ăn nhai và mang lại nụ cười đẹp hơn.",
+      "service2": "Cấy Implant",
+      "desc2": "Đây là giải pháp hoàn hảo nhất giúp khôi phục lại răng đã mất trong lâu dài mà không ảnh hưởng tới các răng còn lại.",
+      "service3": "Răng Sứ",
+      "desc3": "Bọc răng toàn sứ – Không chỉ cải thiện thẩm mỹ cho hàm răng nhiều khuyết điểm nhanh chóng mà còn cực kì bền lâu.",
+      "service4": "Điều trị tổng quát",
+      "desc4": "Bao gồm: nhổ răng khôn, trám răng, điều trị tuỷ, tẩy trắng, điều trị nha chu, cười hở lợi, lấy cao răng, điều trị viêm nướu, ..."
+    },
+    "commit": {
+      "ti1": "Cam kết từ Passion: Chất lượng – Minh bạch – Tận tâm",
+      "ti2": "“Chúng tôi tự tin kiến tạo những nụ cười bền vững và niềm tin dài lâu!”"
+    }
+  },
+  "general": {
+    "title1": "TẦM QUAN TRỌNG CỦA ĐIỀU TRỊ TỔNG QUÁT",
+    "desc1": "Điều trị tổng quát là <strong>nền tảng cốt lõi</strong> để duy trì một nụ cười khỏe mạnh và ngăn ngừa các bệnh lý phức tạp. Tại Nha khoa Passion, chúng tôi tin rằng, chăm sóc răng miệng tốt nhất là chăm sóc <strong>ngay từ giai đoạn sớm</strong>, khi các vấn đề còn nhẹ và có thể được khắc phục triệt để mà không cần đến các can thiệp tốn kém.",
+    "title2": {
+      "ti": "CÁC DỊCH VỤ ĐIỀU TRỊ TỔNG QUÁT CHUYÊN SÂU",
+      "desc": "Chúng tôi cung cấp các giải pháp nha khoa tổng quát với quy trình chuẩn y khoa, đảm bảo an toàn, hiệu quả và sự thoải mái tối đa cho khách hàng:",
+      "ti1": "1. LẤY CAO RĂNG & ĐIỀU TRỊ VIÊM NƯỚU",
+      "desc1-1": "<strong>Tại sao cần:</strong> Cao răng (vôi răng) là nơi trú ngụ của vi khuẩn gây viêm nướu, chảy máu chân răng và về lâu dài là bệnh nha chu (tiêu xương hàm).",
+      "desc1-2": "<strong>Chuyên môn Passion:</strong> Sử dụng máy siêu âm hiện đại, nhẹ nhàng loại bỏ cao răng dưới nướu, kết hợp đánh bóng và điều trị viêm nướu dứt điểm, giúp hơi thở thơm mát và nướu khỏe mạnh.",
+      "imgNote1": "Hình ảnh nướu khỏe mạnh sau khi điều trị viêm nướu.",
+      "ti2": "2. TRÁM RĂNG THẨM MỸ",
+      "desc2-1": "<strong>Tại sao cần:</strong> Trám răng sớm là cách tốt nhất để ngăn ngừa sâu răng tiến triển, bảo vệ tủy răng và khôi phục hình dáng răng.",
+      "desc2-2": "<strong>Chuyên môn Passion:</strong> Sử dụng vật liệu Composite cao cấp, có màu sắc tương đồng răng thật, đảm bảo độ bền chắc và tính thẩm mỹ cao, giúp răng trở lại trạng thái nguyên vẹn ban đầu.",
+      "ti3": "3. ĐIỀU TRỊ TỦY",
+      "desc3-1": "<strong>Tại sao cần:</strong> Khi sâu răng đã ăn tới tủy (dây thần kinh), tủy bị viêm nhiễm gây đau nhức dữ dội. Điều trị tủy là giải pháp duy nhất để loại bỏ viêm nhiễm, cứu lấy chiếc răng và chấm dứt cơn đau.",
+      "desc3-2": "<strong>Chuyên môn Passion:</strong> Thực hiện dưới kính hiển vi hoặc máy định vị chóp hiện đại, đảm bảo làm sạch triệt để, tránh tái nhiễm trùng, giúp răng tồn tại lâu dài trên cung hàm.",
+      "ti4": "4. NHỔ RĂNG KHÔN & NHỔ RĂNG THƯỜNG",
+      "desc4-1": "<strong>Tại sao cần:</strong> Răng khôn mọc lệch, ngầm gây đau nhức, làm xô lệch răng và nguy hiểm. Nhổ răng thường là cần thiết khi răng bị hư tổn quá nặng không thể phục hồi.",
+      "desc4-2": "<strong>Chuyên môn Passion:</strong> Nhổ răng được thực hiện bởi Bác sĩ phẫu thuật chuyên môn, quy trình vô trùng nghiêm ngặt, áp dụng công nghệ nhổ răng tiên tiến (như máy Piezotome) giúp giảm đau, hạn chế chảy máu và lành thương nhanh chóng.",
+      "imgNote4": "Dứt điểm cơn đau Răng khôn - Không đau, nhẹ nhàng, nhanh chóng",
+      "ti5": "5. ĐIỀU TRỊ NHA CHU",
+      "desc5-1": "<strong>Tại sao cần:</strong> Nha chu là bệnh lý viêm nhiễm gây tiêu xương quanh răng, khiến răng lung lay và rụng. Điều trị kịp thời là cách duy nhất để cứu giữ răng thật và tránh mất răng.",
+      "desc5-2": "<strong>Chuyên môn Passion:</strong> Áp dụng phương pháp làm sạch sâu (cạo vôi dưới nướu) kết hợp điều trị kháng sinh, phẫu thuật nha chu (nếu cần), kiểm soát bệnh lý một cách toàn diện.",
+      "ti6": "6. TẨY TRẮNG RĂNG",
+      "desc6-1": "<strong>Tại sao cần:</strong> Giúp loại bỏ các vết ố vàng, xỉn màu do thực phẩm, thuốc lá và thời gian, mang lại nụ cười sáng hơn, rạng rỡ hơn.",
+      "desc6-2": "<strong>Chuyên môn Passion:</strong> Sử dụng công nghệ Tẩy trắng tiên tiến (Zoom/Beyond), nồng độ thuốc an toàn, không gây ê buốt, dưới sự giám sát chặt chẽ của Bác sĩ.",
+      "imgNote6": "Hình ảnh so sánh màu răng trước và sau khi tẩy trắng.",
+      "ti7": "7. ĐIỀU TRỊ CƯỜI HỞ LỢI",
+      "desc7-1": "<strong>Tại sao cần:</strong> Khắc phục tình trạng mô nướu lộ ra quá nhiều khi cười, giúp nụ cười trở nên hài hòa, thẩm mỹ hơn.",
+      "desc7-2": "<strong>Chuyên môn Passion:</strong> Bác sĩ sẽ đánh giá nguyên nhân (do xương hàm, răng, hay mô nướu) để đưa ra giải pháp phù hợp: cắt viền nướu bằng laser, phẫu thuật chỉnh nha, hoặc kết hợp các phương pháp.",
+      "imgNote7": "Hình ảnh nụ cười đã được điều chỉnh cười hở lợi thành công."
+    },
+    "title3": {
+      "ti": "VÌ SAO CHỌN ĐIỀU TRỊ TỔNG QUÁT TẠI NHA KHOA PASSION?",
+      "desc": "Điều trị Tổng quát không chỉ là thủ thuật, mà là sự chẩn đoán chính xác và sự tận tâm:",
+      "desc1": "<strong>Chẩn đoán Toàn diện:</strong> Chúng tôi sử dụng máy móc hiện đại để phát hiện sớm các bệnh lý mà mắt thường không thấy được, từ đó có phác đồ điều trị triệt để nhất.",
+      "desc2": "<strong>Kiểm Soát Nhiễm Khuẩn Tuyệt Đối:</strong> Toàn bộ dụng cụ và quy trình đều tuân thủ nghiêm ngặt chuẩn vô trùng của Bộ Y tế, đảm bảo an toàn tuyệt đối cho mọi can thiệp.",
+      "desc3": "<strong>Tận Tâm & Không Đau:</strong> Đội ngũ Bác sĩ Passion thực hiện mọi thủ thuật một cách nhẹ nhàng, sử dụng thuốc tê hiệu quả để đảm bảo khách hàng có trải nghiệm điều trị thoải mái nhất, đặc biệt khi nhổ răng khôn hay điều trị tủy."
+    },
+    "title4": {
+      "ti": "ĐỪNG ĐỂ VẤN ĐỀ NHỎ THÀNH RẮC RỐI LỚN!",
+      "desc1": "“Sức khỏe răng miệng là cửa ngõ của sức khỏe toàn thân. Hãy hành động ngay hôm nay để giải quyết triệt để các vấn đề cơ bản, bảo vệ nụ cười của bạn khỏi những nguy cơ tiềm ẩn.”",
+      "desc2": "Đặt lịch thăm khám tổng quát ngay hôm nay để được kiểm tra sức khỏe răng miệng, cạo vôi răng, và tư vấn các vấn đề đang mắc phải <strong>hoàn toàn miễn phí!</strong>"
+    }
+  },
+  "porcelain": {
+    "sec1": {
+      "ti": "Răng Sứ Thẩm Mỹ Là Gì?",
+      "desc": "Răng sứ thẩm mỹ là giải pháp phục hình hiện đại, giúp cải thiện triệt để hình dáng, màu sắc và kích thước của răng, kiến tạo nên một nụ cười đều đặn và rạng rỡ. Đây không chỉ là kỹ thuật nha khoa mà còn là <strong>nghệ thuật điêu khắc nụ cười</strong>, đòi hỏi sự kết hợp giữa kiến thức chuyên môn vững vàng của Bác sĩ và sự tinh tế của Kỹ thuật viên Labo."
+    },
+    "sec2": {
+      "ti": "Khi nào cần đến Răng sứ thẩm mỹ?",
+      "desc": "Răng sứ thẩm mỹ là lựa chọn lý tưởng để giải quyết các vấn đề:",
+      "li1": "<strong>Màu sắc:</strong> Răng bị nhiễm màu Tetra/Fluoride nặng, ố vàng do tuổi tác mà tẩy trắng không còn hiệu quả.",
+      "li2": "<strong>Hình dáng:</strong> Răng bị sứt mẻ, mòn cạnh, hình dáng không cân đối, hoặc có kích thước không hài hòa.",
+      "li3": "<strong>Vị trí:</strong> Răng thưa nhẹ, có khe hở, hoặc răng lệch lạc khấp khểnh ở mức độ nhẹ.",
+      "li4": "<strong>Phục hình:</strong> Cần thay thế các miếng trám cũ bị đổi màu hoặc cần phục hình trên răng đã chữa tủy.",
+      "note": "<em>Tư vấn Chuyên gia:</em> Quyết định bọc sứ hay dán sứ Veneer sẽ được Bác sĩ Passion đưa ra sau khi thăm khám kỹ lưỡng, dựa trên tình trạng răng hiện tại của bạn. Chúng tôi luôn ưu tiên<strong> Dán Veneer (mài răng cực ít)</strong> khi có thể để bảo tồn tối đa răng thật và tránh ê buốt."
+    },
+    "sec3": {
+      "ti": "Các giải pháp răng sứ tại\nNHA KHOA PASSION",
+      "ti1": "Dán Sứ Veneer (Bảo tồn Tối đa)",
+      "desc1": "Giải pháp sử dụng lớp sứ mỏng tinh xảo (chỉ từ 0.2mm đến 0.5mm) dán cố định lên bề mặt răng. Ưu điểm là mài răng <strong>cực kỳ ít</strong> hoặc không mài, bảo tồn gần như 100% răng thật, mang lại thẩm mỹ hoàn hảo và rất bền bỉ.",
+      "ti2": "Bọc Răng Sứ Toàn Phần (Phục hình Triệt để)",
+      "desc2": "Chúng tôi cung cấp đa dạng các dòng sứ cao cấp, không kim loại để đáp ứng mọi yêu cầu về thẩm mỹ, độ bền và chi phí:",
+      "table": {
+        "header": ["Dòng Sứ Tiêu Biểu", "Đặc Tính Chính", "Ứng Dụng"],
+        "rows": [
+          {
+            "col1": "Sứ Zirconia (DDBio, Cercon, Cercon HT)",
+            "col2": "Độ bền cơ học cực cao, chịu lực tốt, thẩm mỹ tốt.",
+            "col3": "Răng hàm, phục hình trên Implant."
+          },
+          {
+            "col1": "Sứ Multi Layer (Full Contour)",
+            "col2": "Sứ đa lớp, có sự chuyển màu tự nhiên như răng thật, độ bền cao.",
+            "col3": "Răng tiền hàm, răng hàm (kết hợp thẩm mỹ)."
+          },
+          {
+            "col1": "Sứ Thẩm Mỹ Emax - Lisi",
+            "col2": "Độ trong mờ và thẩm mỹ vượt trội, màu sắc sống động tự nhiên.",
+            "col3": "Răng cửa, răng yêu cầu thẩm mỹ tối đa."
+          },
+          {
+            "col1": "Sứ Thẩm Mỹ Lava",
+            "col2": "Sứ cao cấp, độ bền vượt trội, thẩm mỹ tinh tế, phù hợp cho mọi vị trí.",
+            "col3": "Mọi vị trí răng."
+          }
+        ]
+      }
+    },
+    "sec4": {
+      "ti": "Vì sao nên chọn Răng sứ thẩm mỹ tại\n<strong>NHA KHOA PASSION</strong>",
+      "desc": "Tại Passion, quá trình tạo ra một nụ cười sứ là sự kết hợp của <strong>khoa học, nghệ thuật và sự cá nhân hóa tối đa</strong>, đảm bảo giá trị đầu tư của khách hàng là xứng đáng nhất.",
+      "ti1": "Nghệ Thuật Thiết Kế Nụ Cười (Digital Smile Design - DSD)",
+      "desc1": "Bác sĩ Passion áp dụng quy trình <strong>Thiết kế nụ cười kỹ thuật số (DSD)</strong>. Quá trình này bao gồm việc phân tích cấu trúc khuôn mặt, dáng môi, màu da, và cá tính của từng khách hàng để thiết kế nụ cười hài hòa nhất. Đặc biệt, khách hàng sẽ được trải nghiệm <strong>Thử nụ cười trên miệng (Mock-up)</strong>, giúp bạn nhìn thấy, cảm nhận và điều chỉnh nụ cười mới của mình trước khi mài răng – đảm bảo kết quả cu ối cùng hoàn toàn làm hài lòng bạn, tương xứng với sự tinh tế của các dòng sứ cao cấp mà bạn lựa chọn.",
+      "ti2": "Tiêu Chuẩn Bảo Tồn Răng Thật Tuyệt Đối và Chất Lượng Sứ Cam Kết",
+      "desc2": "<strong>“Mài răng tối thiểu”</strong> là cam kết hàng đầu của chúng tôi, đặc biệt khi thực hiện Dán Veneer hay Bọc Sứ. Với sự hỗ trợ của kính hiển vi nha khoa và kinh nghiệm dày dặn, chúng tôi đảm bảo lượng men răng bị lấy đi là ít nhất, giảm thiểu tối đa nguy cơ ê buốt, bảo vệ tủy răng và duy trì sức khỏe lâu dài cho răng thật. Song song với kỹ thuật mài răng chuẩn xác, Passion chỉ sử dụng các vật liệu sứ cao cấp như <strong>Zirconia, Emax, Lava...</strong> được nhập khẩu chính hãng, có <strong>thẻ bảo hành chính thức</strong>, mang lại cả vẻ đẹp tinh tế lẫn độ bền bỉ vượt trội."
+    },
+    "sec5": {
+      "ti": "TẠI ĐÂY, XIN MỜI KHÁCH HÀNG XEM CÁC HÌNH ẢNH TRƯỚC & SAU THỰC TẾ CÙNG PHẢN HỒI CHÂN THỰC CỦA BỆNH NHÂN ĐÃ LÀM RĂNG SỨ TẠI NHA KHOA PASSION",
+      "desc": "Đặt lịch hẹn ngay hôm nay để được <strong>Bác sĩ Nguyễn Bảo Yến trực tiếp thăm khám</strong> và thiết kế nụ cười riêng biệt dành cho bạn bằng công nghệ DSD <strong>hoàn toàn miễn phí!</strong>"
+    }
+  },
+  "ortho": {
+    "sec1": {
+      "ti": "Chỉnh Nha (Niềng Răng) Là Gì?",
+      "desc": "Chỉnh nha là một chuyên khoa sâu trong nha khoa, không chỉ đơn thuần là làm răng thẳng hàng. Đây là quá trình sử dụng các khí cụ chuyên dụng (mắc cài, khay trong suốt) để di chuyển răng, điều chỉnh khớp cắn về vị trí chuẩn và cân đối xương hàm, từ đó kiến tạo nên <strong>nụ cười hài hòa với tổng thể khuôn mặt.</strong>"
+    },
+    "sec2": {
+      "ti": "Khi nào cần Chỉnh nha?",
+      "desc": "Chỉnh nha là giải pháp toàn diện cho các vấn đề sau:",
+      "li1": "<strong>Răng Hô (Vẩu):</strong> Răng hoặc hàm trên chìa ra quá mức so với hàm dưới.",
+      "li2": "<strong>Răng Móm (Khớp Cắn Ngược):</strong> Răng hoặc hàm dưới phủ ra ngoài hàm trên.",
+      "li3": "<strong>Răng Thưa (Khoảng Cách):</strong> Có khe hở giữa các răng, dễ gây dắt thức ăn và mất thẩm mỹ.",
+      "li4": "<strong>Răng Khấp Khểnh (Chen Chúc):</strong> Răng mọc lệch lạc, chen chúc, khó vệ sinh, dẫn đến nguy cơ sâu răng và viêm nướu cao.",
+      "li5": "<strong>Khớp Cắn Sâu/Hở:</strong> Khớp cắn không đạt chuẩn, ảnh hưởng đến chức năng ăn nhai và thẩm mỹ khuôn mặt.",
+      "note": "<em>Khuyến nghị chuyên gia:</em> Thời điểm vàng để can thiệp chỉnh nha là <strong>giai đoạn tiền dậy thì (8-12 tuổi)</strong>. Can thiệp sớm giúp tận dụng sự phát triển của xương hàm, dễ dàng điều chỉnh sai lệch và thường đạt kết quả tối ưu, tránh được phẫu thuật phức tạp khi trưởng thành"
+    },
+    "sec3": {
+      "ti": "CÁC PHƯƠNG PHÁP CHỈNH NHA",
+      "desc": "Các giải pháp chỉnh nha toàn diện, được cá nhân hóa theo nhu cầu thẩm mỹ và sinh hoạt của từng khách hàng:",
+      "ti1": "CHỈNH NHA MẮC CÀI (Giải pháp truyền thống, hiệu quả tuyệt đối)",
+      "desc1": "Sử dụng hệ thống mắc cài, dây cung và chun buộc để tạo lực, di chuyển răng theo kế hoạch đã định.",
+      "desc1-1": "<strong>Ưu điểm:</strong> Chi phí tối ưu, hiệu quả ổn định, có khả năng điều trị các ca sai lệch phức tạp nhất.",
+      "desc1-2": "Các loại hình nổi bật:",
+      "li1-1": "Mắc cài Kim loại (Truyền thống/Tự buộc): Bền bỉ, mạnh mẽ, rút ngắn thời gian điều trị.",
+      "li1-2": "Mắc cài Sứ/Pha lê: Đảm bảo hiệu quả tương đương mắc cài kim loại nhưng thẩm mỹ hơn, phù hợp với người muốn niềng răng kín đáo hơn.",
+      "ti2": "CHỈNH NHA TRONG SUỐT (Thẩm mỹ tối ưu, Công nghệ hiện đại)",
+      "desc2": "Sử dụng chuỗi khay niềng trong suốt. Khay ôm sát răng, gần như vô hình khi đeo.",
+      "desc2-1": "Ưu điểm:",
+      "li2-1": "<strong>Thẩm mỹ tuyệt đối:</strong> Gần như không nhìn thấy, thoải mái giao tiếp và làm việc.",
+      "li2-2": "<strong>Thoải mái và tiện lợi:</strong>Có thể tháo ra khi ăn uống và vệ sinh răng miệng, giảm thiểu các bệnh lý phát sinh.",
+      "li2-3": "<strong>Dự đoán kết quả:</strong> Xem trước kết quả nụ cười cuối cùng trên mô hình 3D.",
+      "desc2-2": "<strong>Các thương hiệu uy tín:</strong> Invisalign, Clear Correct (đều là các thương hiệu toàn cầu, được Passion tin dùng)."
+    },
+    "sec4": {
+      "ti": "Vì sao nên chọn Chỉnh nha \nTẠI NHA KHOA PASSION",
+      "desc": "Niềng răng là một hành trình dài. Việc lựa chọn Bác sĩ và Nha khoa là yếu tố quyết định 80% sự thành công. Tại Passion, chúng tôi tự hào mang đến:",
+      "ti1": "Chuyên Gia Chỉnh Nha Với Triết Lý Điều Trị Độc Đáo",
+      "desc1": "Các ca chỉnh nha được dẫn dắt bởi <strong>Bác sĩ Nguyễn Bảo Yến</strong>, người có kinh nghiệm sâu và được đào tạo bài bản các triết lý tiên tiến như <strong>Chỉnh nha chức năng theo Sato</strong> và <strong>kỹ thuật MEAW</strong>. Triết lý này giúp Bác sĩ có khả năng giải quyết các ca khó, phức tạp, giúp bạn đạt được kết quả không chỉ là răng đều mà còn là gương mặt hài hòa, cân đối.",
+      "ti2": "Cam Kết Đồng Hành và Hậu Mãi Chuyên Nghiệp:",
+      "desc2": "Hành trình chỉnh nha tại Passion là một quá trình đồng hành. Chúng tôi cam kết:",
+      "li1": "<strong>Tái khám định kỳ nghiêm ngặt</strong> và điều chỉnh lực kịp thời.",
+      "li2": "Sử dụng vật liệu, khí cụ chỉnh nha chính hãng, chất lượng cao.",
+      "li3": "<strong>Hỗ trợ trọn đời</strong> sau khi tháo niềng bằng hàm duy trì, đảm bảo kết quả ổn định vĩnh viễn, không tái phát."
+    },
+    "sec5": {
+      "ti": "TẠI ĐÂY, XIN MỜI KHÁCH HÀNG XEM CÁC HÌNH ẢNH TRƯỚC & SAU THỰC TẾ CÙNG PHẢN HỒI CHÂN THỰC CỦA BỆNH NHÂN ĐÃ LÀM CHỈNH NHA TẠI NHA KHOA PASSION",
+      "desc": "Hãy liên hệ với chúng tôi ngay hôm nay để được <strong>Chuyên gia Chỉnh nha của Nha khoa Passion</strong> thăm khám, chụp CT Cone Beam 3D và tư vấn phác đồ điều trị cá nhân hóa <strong>hoàn toàn miễn phí!</strong> Đừng trì hoãn, hãy hành động để ngăn chặn tiêu xương hàm ngay từ bây giờ!"
+    }
+  },
+  "implant": {
+    "sec1": {
+      "ti": "Trồng Răng Implant Là Gì?",
+      "desc": "Nhiều người lầm tưởng Implant là một loại răng giả. Thực tế, <strong>Trồng răng Implant</strong> (hay Cấy ghép Implant) là một kỹ thuật nha khoa hiện đại, được ví như giải pháp thay thế <strong>chân răng đã mất</strong> một cách vĩnh viễn và độc lập.",
+      "li1": "<strong>Chân răng nhân tạo:</strong> Là một trụ nhỏ làm từ Titanium tinh khiết (vật liệu an toàn tuyệt đối, tương thích sinh học với cơ thể), được đặt cố định vào xương hàm.",
+      "li2": "<strong>Thân răng (Mão sứ):</strong> Sau khi trụ Implant tích hợp ổn định, một chiếc răng sứ có hình dáng và màu sắc y hệt răng thật sẽ được gắn lên, hoàn tất quá trình phục hình.",
+      "note": "<strong>Kết quả:</strong> Bạn có một chiếc răng mới hoàn chỉnh từ chân đến thân, có thể ăn nhai mạnh mẽ như răng tự nhiên, không làm ảnh hưởng đến các răng kế cận."
+    },
+    "sec2": {
+      "ti": "Khi nào cần Trồng răng Implant?",
+      "desc": "Trồng răng Implant không chỉ là vấn đề thẩm mỹ mà là giải pháp bảo vệ sức khỏe tổng thể. Bạn nên cân nhắc thực hiện Implant nếu gặp một trong các tình trạng sau:",
+      "li1": "<strong>Mất một răng độc lập:</strong> Giải pháp tốt nhất để không cần mài các răng bên cạnh (như khi làm cầu răng sứ truyền thống).",
+      "li2": "<strong>Mất nhiều răng liên kề hoặc xen kẽ:</strong> Có thể dùng nhiều trụ Implant hoặc phương pháp Cầu răng sứ trên Implant để phục hình.",
+      "li3": "<strong>Mất răng toàn hàm (Không còn răng nào):</strong> Giải pháp All-on-4/All-on-6 giúp bạn có lại một hàm răng cố định, ăn nhai chắc chắn thay vì phải dùng hàm giả tháo lắp lỏng lẻo.",
+      "li4": "<strong>Mang hàm giả tháo lắp bị lỏng, khó chịu:</strong> Implant giúp cố định hàm giả hoặc chuyển hàm tháo lắp sang răng cố định, chấm dứt sự bất tiện khi ăn uống và giao tiếp.",
+      "note": "<strong>Cảnh báo chuyên gia:</strong> Khi mất răng, xương hàm tại vị trí đó sẽ tiêu dần theo thời gian. Trồng Implant sớm là cách duy nhất để ngăn chặn tiêu xương hàm, giữ vững cấu trúc khuôn mặt và tránh lão hóa sớm."
+    },
+    "sec3": {
+      "ti": "ƯU ĐIỂM VƯỢT TRỘI \nkhi chọn giải pháp Trồng răng Implant",
+      "desc": "Đây là lý do Implant được xem là tiêu chuẩn vàng trong phục hình răng:",
+      "table": {
+        "header": [
+          "Đặc Điểm",
+          "Trồng Răng Implant",
+          "Các Giải Pháp Truyền Thống (Cầu răng, Hàm giả)"
+        ],
+        "rows": [
+          {
+            "col1": "Chức Năng",
+            "col2": "Khôi phục 90 – 100% lực nhai, cảm giác ăn nhai tự nhiên.",
+            "col3": "Chỉ đạt 30 – 50% lực nhai."
+          },
+          {
+            "col1": "Tuổi Thọ",
+            "col2": "Trụ Titanium tồn tại vĩnh viễn nếu chăm sóc tốt.",
+            "col3": "Trung bình 5 – 10 năm, cần làm lại."
+          },
+          {
+            "col1": "Bảo Vệ Xương",
+            "col2": "Ngăn chặn triệt để tiêu xương hàm (điều quan trọng nhất).",
+            "col3": "Không có chân răng, xương hàm vẫn tiếp tục bị tiêu."
+          },
+          {
+            "col1": "Thẩm Mỹ",
+            "col2": "Răng cố định, y hệt răng thật, không phát hiện được.",
+            "col3": "Có thể bị hở, lộ viền, làm mòn răng thật."
+          },
+          {
+            "col1": "Tính Độc Lập",
+            "col2": "Răng độc lập, không cần mài hay tác động đến răng khỏe mạnh kế cận.",
+            "col3": "Bắt buộc phải mài 2 răng khỏe mạnh để làm trụ đỡ."
+          }
+        ]
+      }
+    },
+    "sec4": {
+      "ti": "TIÊU CHÍ CHỌN NHA KHOA TRỒNG RĂNG IMPLANT",
+      "desc": "Quyết định trồng Implant là một đầu tư nghiêm túc cho sức khỏe. Dưới góc độ chuyên gia, bạn cần dựa vào 4 tiêu chí cốt lõi sau:",
+      "li1": "<strong>Tay Nghề Bác Sĩ & Chuyên Môn Sâu:</strong> Có chứng chỉ, kinh nghiệm dày dặn.",
+      "li2": "<strong>Trang Thiết Bị Hiện Đại:</strong> Phải có máy CT Cone Beam 3D.",
+      "li3": "<strong>Vật Liệu Chính Hãng, Nguồn Gốc Rõ Ràng:</strong> Chỉ sử dụng các dòng trụ Implant đã được kiểm định quốc tế và có thẻ bảo hành chính hãng.",
+      "li4": "<strong>Quy Trình Chuẩn Y Khoa:</strong> Phải đạt chuẩn an toàn của Bộ Y tế."
+    },
+    "sec5": {
+      "ti": "Vì sao nên chọn Trồng răng Implant \nTẠI NHA KHOA PASSION",
+      "desc": "Tại Nha khoa Passion, chúng tôi không chỉ đơn thuần là “trồng răng” mà là <strong>Tái tạo nụ cười toàn diện và chức năng ăn nhai</strong> cho bạn. Quá trình cấy ghép Implant tại <strong>Nha khoa Passion</strong> là sự kết hợp hoàn hảo giữa chuyên môn sâu, công nghệ hiện đại và sự tận tâm đặt lợi ích lâu dài của khách hàng lên hàng đầu.",
+      "ti1": "Chuyên môn sâu và Phác đồ cá nhân hóa tối ưu",
+      "desc1-1": "Tại Passion, ca điều trị của bạn được thực hiện bởi <strong>Bác sĩ chuyên khoa Implant</strong> không chỉ có kinh nghiệm dày dặn trong các ca phục hình đơn giản mà còn thành thạo xử lý các trường hợp phức tạp như tiêu xương nặng, cấy ghép xương hay nâng xoang.",
+      "desc1-2": "Chúng tôi tin rằng, phác đồ điều trị phải được <strong>cá nhân hóa hoàn toàn</strong> – mỗi quyết định đặt trụ, lựa chọn vật liệu đều được tính toán kỹ lưỡng để đảm bảo trụ tích hợp nhanh nhất, giảm thiểu đau đớn và mang lại hiệu quả ăn nhai trọn vẹn nhất.",
+      "ti2": "Cam kết công nghệ tiêu chuẩn quốc tế và an toàn tuyệt đối",
+      "desc2": "Nha khoa Passion đầu tư mạnh mẽ vào hệ thống công nghệ hiện đại để đưa ra chẩn đoán không sai sót. Điển hình là việc sử dụng <strong>Máy CT Cone Beam 3D</strong>, cho phép Bác sĩ xác định chính xác cấu trúc xương hàm, mật độ xương và vị trí dây thần kinh.",
+      "ti3": "Minh bạch vật liệu, bảo hành lâu dài và minh chứng sống",
+      "desc3": "Chúng tôi cam kết sử dụng <strong>Trụ Implant nhập khẩu chính hãng</strong> từ các thương hiệu hàng đầu thế giới (Nobel Biocare, Straumann, Osstem…), có nguồn gốc rõ ràng và đi kèm <strong>thẻ bảo hành toàn cầu</strong> trọn đời từ nhà sản xuất. Sự minh bạch này giúp khách hàng hoàn toàn yên tâm về chất lượng và tuổi thọ của “chân răng” mới."
+    },
+    "sec6": {
+      "ti": "TẠI ĐÂY, XIN MỜI KHÁCH HÀNG XEM CÁC HÌNH ẢNH TRƯỚC & SAU THỰC TẾ CÙNG PHẢN HỒI CHÂN THỰC CỦA BỆNH NHÂN ĐÃ LÀM IMPLANT TẠI NHA KHOA PASSION",
+      "desc": "Hãy liên hệ với chúng tôi ngay hôm nay để được <strong>Chuyên gia Implant của Nha khoa Passion</strong> thăm khám, chụp CT Cone Beam 3D và tư vấn phác đồ điều trị cá nhân hóa <strong>hoàn toàn miễn phí!</strong> Đừng trì hoãn, hãy hành động để ngăn chặn tiêu xương hàm ngay từ bây giờ!"
+    }
+  }
+}

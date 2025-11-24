@@ -1,0 +1,257 @@
+{
+  "banner": "eBanner.jpg",
+  "bookingBtn": "BOOK A FREE CONSULTATION",
+  "service": {
+    "title1": "Introduction",
+    "title2": "Featured Services",
+    "desc1": "At <strong>Passion Dental</strong>, we consider <em>integrity and trust</em> the foundation of every service. Every treatment begins with wholehearted dedication and ends with patient satisfaction. Our dentists are highly qualified, extensively trained both locally and abroad, fully licensed by the Department of Health, and continuously update the latest advances in global dentistry.",
+    "desc2": "<strong>All materials and equipment</strong> at our clinic are imported directly from the US and Europe, fully <strong>FDA and CE certified</strong>, ensuring maximum safety and precision. Our fully sterilized treatment rooms follow Ministry of Health standards so you can feel completely at ease during your visit.",
+    "desc3": "We are always <strong>transparent about treatment costs and timelines</strong>, helping you clearly understand every step and every option before starting. Each treatment plan is personalized according to your oral condition and aesthetic goals, optimizing both cost and time.",
+    "desc4": "Our services range from preventive and restorative care to <strong>complex procedures</strong> that require advanced, specialized techniques:",
+    "favService": {
+      "service1": "Orthodontics",
+      "desc1": "Helps realign teeth into the proper position, improving chewing function and enhancing your smile.",
+      "service2": "Dental Implants",
+      "desc2": "The most comprehensive solution to restore missing teeth long term without affecting neighboring teeth.",
+      "service3": "Porcelain Crowns",
+      "desc3": "Full-porcelain restorations that quickly improve the aesthetics of imperfect teeth while remaining highly durable.",
+      "service4": "General Dentistry",
+      "desc4": "Including: wisdom tooth extraction, fillings, root canal treatment, teeth whitening, periodontal therapy, gummy smile treatment, scaling, gingivitis treatment, and more."
+    },
+    "commit": {
+      "ti1": "Passion’s Commitment: Quality – Transparency – Dedication",
+      "ti2": "“We are confident in creating smiles that last — and trust that endures!”"
+    }
+  },
+  "general": {
+    "title1": "THE IMPORTANCE OF GENERAL DENTISTRY",
+    "desc1": "General dentistry is the <strong>core foundation</strong> for maintaining a healthy smile and preventing complex dental conditions. At Passion Dental, we believe that the best oral care starts <strong>early</strong>, when issues are still mild and can be resolved completely without costly invasive procedures.",
+    "title2": {
+      "ti": "COMPREHENSIVE GENERAL DENTISTRY SERVICES",
+      "desc": "We provide a full range of general dental solutions following strict clinical protocols to ensure safety, effectiveness, and maximum comfort:",
+      "ti1": "1. SCALING & GINGIVITIS TREATMENT",
+      "desc1-1": "<strong>Why it matters:</strong> Tartar (calculus) is a breeding ground for bacteria that cause gingivitis, bleeding gums, and over time can lead to periodontitis (bone loss).",
+      "desc1-2": "<strong>Passion’s expertise:</strong> Using modern ultrasonic scaling devices, we gently remove tartar below the gumline, combined with polishing and definitive treatment for gingivitis to restore fresh breath and healthy gums.",
+      "imgNote1": "Image: Healthy gums after gingivitis treatment.",
+      "ti2": "2. AESTHETIC TOOTH FILLINGS",
+      "desc2-1": "<strong>Why it matters:</strong> Early fillings are the best way to prevent cavities from progressing, protect the pulp, and restore tooth shape.",
+      "desc2-2": "<strong>Passion’s expertise:</strong> We use high-quality composite materials that closely match natural tooth shade, ensuring long-lasting durability and excellent aesthetics, returning the tooth to its original form.",
+      "ti3": "3. ROOT CANAL TREATMENT",
+      "desc3-1": "<strong>Why it matters:</strong> When decay reaches the pulp (nerve), the pulp becomes infected, causing severe pain. Root canal treatment is the only solution to eliminate infection, save the tooth, and end the pain.",
+      "desc3-2": "<strong>Passion’s expertise:</strong> Performed under a microscope or with modern apex locators to ensure thorough cleaning, prevent reinfection, and help the tooth remain functional long term.",
+      "ti4": "4. WISDOM TOOTH & ROUTINE TOOTH EXTRACTIONS",
+      "desc4-1": "<strong>Why it matters:</strong> Impacted or misaligned wisdom teeth cause pain, crowding, and potential complications. Extraction is also necessary when a tooth is severely damaged and cannot be restored.",
+      "desc4-2": "<strong>Passion’s expertise:</strong> Extractions are performed by experienced oral surgeons under strict sterile conditions, using advanced techniques (such as Piezotome) to minimize pain, reduce bleeding, and support fast healing.",
+      "imgNote4": "End wisdom tooth pain – gentle, quick, and comfortable.",
+      "ti5": "5. PERIODONTAL TREATMENT",
+      "desc5-1": "<strong>Why it matters:</strong> Periodontal disease causes bone loss around teeth, leading to mobility and eventual tooth loss. Timely treatment is the only way to preserve natural teeth and prevent tooth loss.",
+      "desc5-2": "<strong>Passion’s expertise:</strong> We apply deep cleaning techniques (subgingival scaling) combined with antibiotic therapy and, when needed, periodontal surgery to achieve comprehensive disease control.",
+      "ti6": "6. TEETH WHITENING",
+      "desc6-1": "<strong>Why it matters:</strong> Teeth whitening removes stains and discoloration caused by food, smoking, and aging, giving you a brighter, more radiant smile.",
+      "desc6-2": "<strong>Passion’s expertise:</strong> We use advanced whitening technologies (Zoom/Beyond) with safe gel concentrations that minimize sensitivity, under close supervision by our dentists.",
+      "imgNote6": "Comparison of tooth shade before and after whitening.",
+      "ti7": "7. GUMMY SMILE CORRECTION",
+      "desc7-1": "<strong>Why it matters:</strong> Corrects excessive gum display when smiling, making the smile more balanced and aesthetically pleasing.",
+      "desc7-2": "<strong>Passion’s expertise:</strong> Our dentist evaluates the cause (jawbone, teeth, or gum tissue) to propose the most suitable solution: laser gum contouring, orthodontics, surgery, or a combination of methods.",
+      "imgNote7": "Image: A successfully corrected gummy smile."
+    },
+    "title3": {
+      "ti": "WHY CHOOSE GENERAL DENTISTRY AT PASSION DENTAL?",
+      "desc": "General treatment is not just about procedures — it is about accurate diagnosis and genuine dedication:",
+      "desc1": "<strong>Comprehensive Diagnosis:</strong> We use modern equipment to detect early issues invisible to the naked eye, allowing us to design the most definitive treatment plan.",
+      "desc2": "<strong>Strict Infection Control:</strong> All instruments and procedures strictly follow Ministry of Health sterilization standards, ensuring absolute safety for every intervention.",
+      "desc3": "<strong>Gentle & Pain-Controlled Care:</strong> Passion’s dentists perform all procedures with a gentle touch and effective local anesthesia to ensure maximum comfort, especially for wisdom tooth extraction and root canal treatment."
+    },
+    "title4": {
+      "ti": "DON’T LET SMALL ISSUES BECOME BIG PROBLEMS!",
+      "desc1": "“Oral health is the gateway to overall health. Take action today to resolve minor issues thoroughly and protect your smile from hidden risks.”",
+      "desc2": "Book a comprehensive dental check-up today for an examination, scaling, and consultation on current concerns — <strong>completely free of charge!</strong>"
+    }
+  },
+  "porcelain": {
+    "sec1": {
+      "ti": "What Is Aesthetic Porcelain Dentistry?",
+      "desc": "Aesthetic porcelain dentistry is a modern restorative solution that dramatically improves the shape, color, and size of teeth, creating an even, radiant smile. It is not only a dental technique but also an <strong>art of smile design</strong>, requiring a combination of strong clinical expertise and the refined craftsmanship of the dental lab technician."
+    },
+    "sec2": {
+      "ti": "When Do You Need Aesthetic Porcelain Restorations?",
+      "desc": "Aesthetic porcelain restorations are an ideal choice for addressing:",
+      "li1": "<strong>Color:</strong> Teeth with severe tetracycline/fluoride staining or age-related discoloration where whitening is no longer effective.",
+      "li2": "<strong>Shape:</strong> Chipped, worn, uneven teeth or those with disharmonious proportions.",
+      "li3": "<strong>Position:</strong> Mild spacing, gaps, or slightly crooked and misaligned teeth.",
+      "li4": "<strong>Restorations:</strong> Replacing old discolored fillings or restoring teeth that have undergone root canal treatment.",
+      "note": "<em>Specialist advice:</em> The decision between full crowns and porcelain veneers will be made by Passion’s dentists after a thorough examination of your current tooth condition. We always prioritize <strong>veneers (minimal reshaping)</strong> whenever possible to preserve natural tooth structure and minimize sensitivity."
+    },
+    "sec3": {
+      "ti": "Porcelain Solutions at\nPASSION DENTAL",
+      "ti1": "Porcelain Veneers (Maximum Preservation)",
+      "desc1": "A solution using ultra-thin, refined porcelain shells (only 0.2mm to 0.5mm) bonded to the front surface of the teeth. The advantage is <strong>minimal or no tooth reduction</strong>, preserving nearly 100% of natural tooth structure while achieving perfect, long-lasting aesthetics.",
+      "ti2": "Full-Coverage Porcelain Crowns (Comprehensive Restoration)",
+      "desc2": "We offer a wide range of premium, metal-free porcelain systems to meet all requirements in aesthetics, durability, and budget:",
+      "table": {
+        "header": ["Representative Porcelain Lines", "Key Features", "Applications"],
+        "rows": [
+          {
+            "col1": "Zirconia (DDBio, Cercon, Cercon HT)",
+            "col2": "Very high mechanical strength, excellent load resistance, good aesthetics.",
+            "col3": "Posterior teeth, implant-supported restorations."
+          },
+          {
+            "col1": "Multi-Layer Porcelain (Full Contour)",
+            "col2": "Multi-layered porcelain with natural shade transitions like real teeth, high durability.",
+            "col3": "Premolars and molars (where both function and aesthetics are important)."
+          },
+          {
+            "col1": "Emax / Lisi Aesthetic Porcelain",
+            "col2": "Outstanding translucency and aesthetics with vibrant, natural color.",
+            "col3": "Anterior teeth and areas requiring maximum aesthetics."
+          },
+          {
+            "col1": "Lava Aesthetic Porcelain",
+            "col2": "Premium porcelain with exceptional strength and refined aesthetics, suitable for all regions.",
+            "col3": "All tooth positions."
+          }
+        ]
+      }
+    },
+    "sec4": {
+      "ti": "Why Choose Aesthetic Porcelain Dentistry at\n<strong>PASSION DENTAL</strong>",
+      "desc": "At Passion, creating a porcelain smile is a fusion of <strong>science, artistry, and full personalization</strong>, ensuring your investment delivers lasting value.",
+      "ti1": "Art of Smile Design (Digital Smile Design – DSD)",
+      "desc1": "Passion’s dentists apply the <strong>Digital Smile Design (DSD)</strong> protocol. This includes analyzing facial structure, lip line, skin tone, and personality to design the most harmonious smile. You will experience a <strong>mock-up smile try-in</strong>, allowing you to see, feel, and fine-tune your new smile before any tooth reduction — ensuring the final result fully satisfies you and matches the elegance of the premium porcelain system you choose.",
+      "ti2": "Maximum Tooth Preservation and Guaranteed Porcelain Quality",
+      "desc2": "<strong>“Minimal tooth reduction”</strong> is our top commitment, especially for veneers and crowns. With the support of dental microscopes and extensive experience, we ensure that only the smallest possible amount of enamel is removed, greatly reducing sensitivity, protecting the pulp, and maintaining long-term tooth health. Alongside precise tooth preparation, Passion uses only premium porcelain materials such as <strong>Zirconia, Emax, Lava…</strong>, imported from trusted manufacturers with <strong>official warranty cards</strong>, delivering both refined beauty and exceptional durability."
+    },
+    "sec5": {
+      "ti": "HERE, YOU ARE INVITED TO VIEW REAL BEFORE–AFTER CASES AND HONEST FEEDBACK FROM PATIENTS WHO HAVE HAD PORCELAIN RESTORATIONS AT PASSION DENTAL",
+      "desc": "Book your appointment today to have <strong>Dr. Nguyen Bao Yen personally examine</strong> and design your unique smile using DSD technology — <strong>completely free of charge!</strong>"
+    }
+  },
+  "ortho": {
+    "sec1": {
+      "ti": "What Is Orthodontics (Braces)?",
+      "desc": "Orthodontics is a specialized branch of dentistry that goes far beyond simply straightening teeth. It is the process of using appliances (brackets or clear aligners) to move teeth, adjust the bite into an ideal position, and balance the jaw structure — ultimately creating a <strong>smile that harmonizes with the entire face.</strong>"
+    },
+    "sec2": {
+      "ti": "When Do You Need Orthodontic Treatment?",
+      "desc": "Orthodontics is a comprehensive solution for the following conditions:",
+      "li1": "<strong>Protruding Teeth (Overjet):</strong> Upper teeth or jaw sticking out excessively compared to the lower jaw.",
+      "li2": "<strong>Underbite (Reverse Bite):</strong> Lower teeth or jaw extending beyond the upper teeth.",
+      "li3": "<strong>Spacing:</strong> Gaps between teeth that trap food easily and affect aesthetics.",
+      "li4": "<strong>Crowding:</strong> Overlapping, misaligned teeth that are hard to clean, increasing the risk of cavities and gum disease.",
+      "li5": "<strong>Deep Bite / Open Bite:</strong> Misaligned occlusion affecting chewing function and facial aesthetics.",
+      "note": "<em>Expert recommendation:</em> The golden period for orthodontic intervention is <strong>pre-puberty (8–12 years old)</strong>. Early treatment takes advantage of jaw growth, makes correction easier, often achieves optimal results, and can help avoid complex surgery in adulthood."
+    },
+    "sec3": {
+      "ti": "ORTHODONTIC TREATMENT OPTIONS",
+      "desc": "Comprehensive orthodontic solutions tailored to each patient’s aesthetic needs and lifestyle:",
+      "ti1": "BRACKET ORTHODONTICS (Traditional, Highly Effective)",
+      "desc1": "Uses brackets, archwires, and elastics to apply controlled forces and move teeth according to a planned sequence.",
+      "desc1-1": "<strong>Advantages:</strong> Cost-effective, predictable outcomes, and capable of correcting even highly complex malocclusions.",
+      "desc1-2": "Key options:",
+      "li1-1": "Metal Braces (Conventional/Self-ligating): Durable and powerful, helping shorten treatment time.",
+      "li1-2": "Ceramic/Crystal Braces: Provide similar effectiveness to metal braces but are more discreet, ideal for patients who prefer a more aesthetic option.",
+      "ti2": "CLEAR ALIGNER ORTHODONTICS (Maximum Aesthetics, Advanced Technology)",
+      "desc2": "Uses a series of clear aligners that fit snugly over the teeth and are nearly invisible when worn.",
+      "desc2-1": "Advantages:",
+      "li2-1": "<strong>Excellent aesthetics:</strong> Almost invisible, allowing you to speak and work confidently.",
+      "li2-2": "<strong>Comfort and convenience:</strong> Removable for eating and cleaning, reducing the risk of oral disease during treatment.",
+      "li2-3": "<strong>Predictable outcomes:</strong> Final results can be visualized in advance on a 3D model.",
+      "desc2-2": "<strong>Trusted brands:</strong> Invisalign and Clear Correct — both leading global brands chosen by Passion."
+    },
+    "sec4": {
+      "ti": "Why Choose Orthodontics\nAT PASSION DENTAL",
+      "desc": "Orthodontic treatment is a long-term journey. Choosing the right dentist and clinic determines up to 80% of success. At Passion, we proudly offer:",
+      "ti1": "An Orthodontic Specialist with a Unique Treatment Philosophy",
+      "desc1": "Orthodontic cases are led by <strong>Dr. Nguyen Bao Yen</strong>, who has deep experience and formal training in advanced philosophies such as <strong>functional orthodontics based on Sato</strong> and the <strong>MEAW technique</strong>. These philosophies enable effective treatment of complex cases, achieving not only straight teeth but also a harmonious and balanced facial profile.",
+      "ti2": "Commitment to Long-Term Support and Professional Aftercare",
+      "desc2": "Your orthodontic experience at Passion is a true partnership. We are committed to:",
+      "li1": "<strong>Strict, regular follow-up visits</strong> with timely adjustments.",
+      "li2": "Using high-quality, genuine orthodontic materials and appliances.",
+      "li3": "<strong>Lifelong support</strong> after debonding with customized retainers to keep results stable and prevent relapse."
+    },
+    "sec5": {
+      "ti": "HERE, YOU ARE INVITED TO VIEW REAL BEFORE–AFTER CASES AND HONEST FEEDBACK FROM PATIENTS WHO COMPLETED ORTHODONTIC TREATMENT AT PASSION DENTAL",
+      "desc": "Contact us today to have <strong>Passion Dental’s Orthodontic Specialist</strong> examine you, perform 3D Cone Beam CT imaging, and design a personalized treatment plan — <strong>completely free of charge!</strong> Don’t wait — take action now to prevent jawbone loss and worsening misalignment!"
+    }
+  },
+  "implant": {
+    "sec1": {
+      "ti": "What Is Dental Implant Treatment?",
+      "desc": "Many people think implants are just another type of false tooth. In reality, <strong>dental implant treatment</strong> is a modern technique that replaces the <strong>entire missing tooth root</strong> in a permanent and independent way.",
+      "li1": "<strong>Artificial root:</strong> A small screw made of pure titanium (a completely safe, biocompatible material) placed firmly into the jawbone.",
+      "li2": "<strong>Crown (Porcelain tooth):</strong> Once the implant has integrated with the bone, a porcelain crown with the same shape and color as natural teeth is attached, completing the restoration.",
+      "note": "<strong>Result:</strong> You have a fully restored tooth from root to crown, with chewing strength comparable to a natural tooth and no impact on adjacent teeth."
+    },
+    "sec2": {
+      "ti": "When Do You Need Dental Implants?",
+      "desc": "Dental implants are not only about aesthetics — they are crucial for overall health. You should consider implants if you experience any of the following:",
+      "li1": "<strong>Single tooth loss:</strong> The best solution that avoids grinding neighboring teeth, as required with traditional dental bridges.",
+      "li2": "<strong>Multiple missing teeth in a row or spaced apart:</strong> Multiple implants or implant-supported bridges can be used for restoration.",
+      "li3": "<strong>Full-arch tooth loss (no teeth remaining):</strong> All-on-4/All-on-6 solutions provide a fixed full-arch restoration with strong chewing capability, replacing unstable removable dentures.",
+      "li4": "<strong>Unstable, uncomfortable removable dentures:</strong> Implants can secure existing dentures or convert them into fixed teeth, eliminating discomfort when eating and speaking.",
+      "note": "<strong>Expert warning:</strong> After tooth loss, the jawbone at that site gradually resorbs over time. Early implant placement is the only way to prevent bone loss, maintain facial structure, and avoid premature aging."
+    },
+    "sec3": {
+      "ti": "OUTSTANDING ADVANTAGES\nof Choosing Dental Implants",
+      "desc": "These are the reasons implants are considered the gold standard in tooth replacement:",
+      "table": {
+        "header": [
+          "Feature",
+          "Dental Implants",
+          "Traditional Solutions (Bridges, Dentures)"
+        ],
+        "rows": [
+          {
+            "col1": "Function",
+            "col2": "Restores 90–100% of chewing capacity with a natural feel.",
+            "col3": "Only restores about 30–50% of chewing strength."
+          },
+          {
+            "col1": "Longevity",
+            "col2": "Titanium implants can last a lifetime with good care.",
+            "col3": "Average lifespan is 5–10 years and may require replacement."
+          },
+          {
+            "col1": "Bone Preservation",
+            "col2": "Effectively prevents jawbone resorption (the most important factor).",
+            "col3": "Without tooth roots, bone continues to resorb over time."
+          },
+          {
+            "col1": "Aesthetics",
+            "col2": "Fixed teeth that look like natural teeth — indistinguishable.",
+            "col3": "May appear bulky, with visible margins, and can wear down natural teeth."
+          },
+          {
+            "col1": "Independence",
+            "col2": "Each implant-supported tooth is independent and does not require grinding healthy adjacent teeth.",
+            "col3": "Requires grinding down two healthy neighboring teeth as bridge abutments."
+          }
+        ]
+      }
+    },
+    "sec4": {
+      "ti": "KEY CRITERIA FOR CHOOSING AN IMPLANT CLINIC",
+      "desc": "Choosing implants is a serious investment in your health. From a specialist’s perspective, you should evaluate these four core criteria:",
+      "li1": "<strong>Surgeon Skill & Expertise:</strong> Proper certification and extensive clinical experience.",
+      "li2": "<strong>Modern Equipment:</strong> Availability of Cone Beam CT 3D imaging.",
+      "li3": "<strong>Genuine Materials with Clear Origin:</strong> Only internationally certified implant systems with official warranty cards should be used.",
+      "li4": "<strong>Standardized Clinical Protocols:</strong> All procedures must meet Ministry of Health safety standards."
+    },
+    "sec5": {
+      "ti": "Why Choose Dental Implants\nAT PASSION DENTAL",
+      "desc": "At Passion Dental, we don’t just “place an implant” — we focus on <strong>rebuilding your smile and chewing function comprehensively</strong>. Our implant workflow is a perfect blend of deep expertise, advanced technology, and a long-term, patient-first philosophy.",
+      "ti1": "Advanced Expertise and Fully Personalized Treatment Planning",
+      "desc1-1": "At Passion, your treatment is carried out by an <strong>implant specialist</strong> experienced not only with straightforward cases but also in complex situations such as severe bone loss, bone grafting, and sinus lift procedures.",
+      "desc1-2": "We believe every treatment plan must be <strong>fully personalized</strong> — each decision about implant position and material selection is carefully calculated to support faster osseointegration, minimize discomfort, and restore optimal chewing function.",
+      "ti2": "Commitment to International-Standard Technology and Absolute Safety",
+      "desc2": "Passion Dental invests heavily in state-of-the-art equipment to ensure precise diagnosis. A key example is the use of <strong>Cone Beam CT 3D</strong>, which allows our surgeons to accurately assess jawbone structure, bone density, and nerve location.",
+      "ti3": "Transparent Materials, Long-Term Warranty, and Proven Results",
+      "desc3": "We are committed to using <strong>genuine imported implant systems</strong> from leading global brands (Nobel Biocare, Straumann, Osstem, and more), all with verified origin and <strong>lifetime global warranty</strong> from the manufacturer. This transparency allows you to feel completely confident in the quality and longevity of your new “tooth roots”."
+    },
+    "sec6": {
+      "ti": "HERE, YOU ARE INVITED TO VIEW REAL BEFORE–AFTER CASES AND HONEST FEEDBACK FROM PATIENTS WHO HAVE HAD IMPLANT TREATMENT AT PASSION DENTAL",
+      "desc": "Contact us today to have <strong>Passion Dental’s Implant Specialist</strong> examine you, perform 3D Cone Beam CT imaging, and design a personalized treatment plan — <strong>completely free of charge!</strong> Don’t delay — take action now to prevent jawbone loss and protect your health!"
+    }
+  }
+}
