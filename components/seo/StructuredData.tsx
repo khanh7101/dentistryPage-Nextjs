@@ -21,8 +21,21 @@ export function StructuredData({
   description,
   url,
 }: StructuredDataProps) {
-  // Use environment variable or fallback for SSR
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://passiondental.vn';
+  // Always use production URL for structured data to avoid SEO issues
+  // Never use localhost URLs in production metadata
+  function getBaseUrl(): string {
+    const productionUrl = 'https://passiondental.vn';
+    const envUrl = process.env.NEXT_PUBLIC_SITE_URL;
+    
+    // Only use env URL if it's a production URL (not localhost)
+    if (envUrl && !envUrl.includes('localhost') && !envUrl.includes('127.0.0.1')) {
+      return envUrl;
+    }
+    
+    return productionUrl;
+  }
+  
+  const baseUrl = getBaseUrl();
 
   const organizationSchema = {
     '@context': 'https://schema.org',

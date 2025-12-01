@@ -14,9 +14,21 @@ type GenerateSEOMetadataParams = {
 /**
  * Get base URL for the site
  * Note: This runs on server-side, so we use env variable
+ * Always use production URL for canonical/hreflang to avoid SEO issues
  */
 function getBaseUrl(): string {
-  return process.env.NEXT_PUBLIC_SITE_URL || 'https://passiondental.vn';
+  // Always use production URL for canonical and hreflang tags
+  // This ensures SEO works correctly even in development
+  const productionUrl = 'https://passiondental.vn';
+  
+  // If NEXT_PUBLIC_SITE_URL is set and is a production URL, use it
+  const envUrl = process.env.NEXT_PUBLIC_SITE_URL;
+  if (envUrl && !envUrl.includes('localhost') && !envUrl.includes('127.0.0.1')) {
+    return envUrl;
+  }
+  
+  // Otherwise, always use production URL for SEO metadata
+  return productionUrl;
 }
 
 /**
@@ -39,14 +51,19 @@ export async function generateSEOMetadata({
   // Default OG image if not provided
   const ogImage = image || `${baseUrl}/images/brand/logo.png`;
 
+  // Đảm bảo canonical URL luôn là absolute URL với production domain
+  const canonicalUrl = new URL(fullUrl).href;
+  const viUrl = new URL(`${baseUrl}/vi${canonicalPath}`).href;
+  const enUrl = new URL(`${baseUrl}/en${canonicalPath}`).href;
+
   return {
     title: t('title'),
     description: t('description'),
     alternates: {
-      canonical: fullUrl,
+      canonical: canonicalUrl,
       languages: {
-        vi: `${baseUrl}/vi${canonicalPath}`,
-        en: `${baseUrl}/en${canonicalPath}`,
+        vi: viUrl,
+        en: enUrl,
       },
     },
     // Open Graph (cho Facebook, LinkedIn, etc.)
@@ -86,8 +103,8 @@ export async function generateSEOMetadata({
         'max-snippet': -1,
       },
     },
-    // Additional metadata
-    metadataBase: new URL(baseUrl),
+    // metadataBase đã được set ở root layout (app/layout.tsx)
+    // Không cần set lại ở đây để tránh conflict
   };
 }
 

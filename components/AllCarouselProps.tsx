@@ -106,6 +106,7 @@ export default function AllCarouselProps({
                 <figure key={`${it.file}-${i}`} className="bg-white">
                   <ImageWithPreview
                     src={it.file}
+                    alt={it.name || `Image ${i + 1}`}
                     previewMode={previewMode}
                     className={`${aspectClass} object-contain cursor-zoom-in`}
                     loading="lazy"

@@ -17,18 +17,22 @@ export default function ResponsivePhotoGrid({ photos }: ResponsivePhotoGridProps
 
   return (
     <div className="grid grid-cols-2 md:grid-cols-3 gap-3 mt-5">
-      {displayPhotos.map((file) => (
-        <div key={file} className="w-full">
-          <ImageWithPreview
-            src={diaryImage(file)}
-            previewMode="fit"
-            className="aspect-square w-full object-cover shadow-sm cursor-zoom-in"
-            loading="lazy"
-            decoding="async"
-            alt=""
-          />
-        </div>
-      ))}
+      {displayPhotos.map((file) => {
+        // Extract filename without extension for alt text
+        const filename = file.replace(/\.[^/.]+$/, '').replace(/[_-]/g, ' ');
+        return (
+          <div key={file} className="w-full">
+            <ImageWithPreview
+              src={diaryImage(file)}
+              alt={filename || 'Diary photo'}
+              previewMode="fit"
+              className="aspect-square w-full object-cover shadow-sm cursor-zoom-in"
+              loading="lazy"
+              decoding="async"
+            />
+          </div>
+        );
+      })}
     </div>
   );
 }

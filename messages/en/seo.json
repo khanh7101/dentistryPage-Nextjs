@@ -38,5 +38,9 @@
   "blog": {
     "title": "Dental Blog & Oral Health Knowledge – Passion Dental",
     "description": "Dental knowledge, oral care tips, and treatment insights from Passion Dental. Regularly updated with professional oral health information."
+  },
+  "knowledge": {
+    "title": "Knowledge – Passion Dental",
+    "description": "Knowledge from Passion Dental. Regularly updated with professional oral health information."
   }
 }
