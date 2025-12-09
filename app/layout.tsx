@@ -1,11 +1,21 @@
 // app/layout.tsx
 // Root layout - Next.js yêu cầu phải có html/body
 import type { ReactNode } from "react";
+import type { Metadata } from "next";
 import { NextIntlClientProvider } from "next-intl";
 import { getMessages } from "next-intl/server";
 import "./globals.css";
 
 export const dynamic = "force-dynamic";
+
+// Metadata base URL để đảm bảo logo và images được resolve đúng
+export const metadata: Metadata = {
+  metadataBase: new URL('https://passiondental.vn'),
+  icons: {
+    icon: '/images/brand/logo.png',
+    apple: '/images/brand/logo.png',
+  },
+};
 
 export default async function RootLayout({
   children,

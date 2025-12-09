@@ -1,46 +1,46 @@
 {
   "home": {
-    "title": "Passion Dental – Professional Dental Care in Da Nang",
-    "description": "Passion Dental provides comprehensive dental services in Da Nang, including dental implants, orthodontics, porcelain restorations, and general dentistry. Professional care supported by advanced technology and an experienced team of dentists."
+    "title": "Passion Dental Clinic Da Nang",
+    "description": "Passion Dental Clinic Da Nang provides comprehensive dental services, including dental implants, orthodontics, cosmetic crowns, and general dentistry."
   },
   "about": {
-    "title": "About Passion Dental – Professional Dental Specialists in Da Nang",
-    "description": "Passion Dental is led by Specialist Level I Dr. Dang Hoang Thanh Tung – Implant expert, and Dr. Nguyen Bao Yen – Orthodontic specialist. With a Right – Sufficient – Beautiful treatment philosophy, we are committed to long-lasting and sustainable results."
+    "title": "About Passion Dental – Professional Dental Team in Da Nang",
+    "description": "Passion Dental is led by Specialist Level I Dr. Dang Hoang Thanh Tung – Implant expert, and Dr. Nguyen Bao Yen – Orthodontic specialist. Guided by the treatment philosophy of Right – Adequate – Aesthetic, delivering long-lasting and sustainable results."
   },
   "services": {
-    "title": "Dental Services – Passion Dental Da Nang",
-    "description": "Comprehensive dental services at Passion Dental: orthodontics (braces), dental implants, aesthetic porcelain restorations, and general dentistry. FDA/CE-approved materials and Ministry of Health–standard sterilization protocols.",
+    "title": "Dental Services – Passion Dental Clinic Da Nang",
+    "description": "Comprehensive dental services at Passion Dental: orthodontics (braces), dental implants, cosmetic crowns, and general treatment. FDA/CE-certified materials and Ministry of Health–standard sterilization protocols.",
     "general": {
-      "title": "General Dentistry – Passion Dental Da Nang",
-      "description": "General dentistry at Passion Dental: teeth cleaning, aesthetic fillings, root canal treatment, wisdom tooth extraction, periodontal therapy, teeth whitening, and gummy smile treatment. Comprehensive diagnostics with strict safety protocols."
+      "title": "General Dentistry – Passion Dental Clinic Da Nang",
+      "description": "General dental treatments at Passion Dental: scaling, cosmetic fillings, root canal therapy, wisdom tooth extraction, periodontal treatment, teeth whitening, and gummy smile correction. Comprehensive diagnostics with absolute safety."
     },
     "orthodontic": {
-      "title": "Orthodontics (Braces) – Passion Dental Da Nang",
-      "description": "Professional orthodontic treatment at Passion Dental: metal/ceramic braces and clear aligners (Invisalign/ClearCorrect). Dr. Nguyen Bao Yen specializes in the Sato philosophy and MEAW technique. Lifetime support after treatment."
+      "title": "Orthodontics (Braces) – Passion Dental Clinic Da Nang",
+      "description": "Professional orthodontic treatment at Passion Dental: metal/ceramic braces, Invisalign/ClearCorrect aligners. Led by Dr. Nguyen Bao Yen – orthodontic expert trained in Sato philosophy and MEAW technique. Lifetime support after treatment."
     },
     "implant": {
-      "title": "Dental Implants – Passion Dental Da Nang",
-      "description": "Professional implant dentistry at Passion Dental: Specialist Level I Dr. Dang Hoang Thanh Tung – Implant expert with Zygomatic Implant certification. Genuine implant systems from Nobel/Straumann/Osstem, 3D Cone Beam CT, and lifetime warranty."
+      "title": "Dental Implants – Passion Dental Clinic Da Nang",
+      "description": "Professional implant dentistry at Passion Dental: Specialist Level I Dr. Dang Hoang Thanh Tung – implant expert certified in Zygomatic Implant techniques. Premium implant systems: Nobel, Straumann, Osstem. 3D CT Cone Beam imaging with lifetime warranty."
     },
     "porcelain": {
-      "title": "Aesthetic Porcelain Restorations – Passion Dental Da Nang",
-      "description": "Aesthetic porcelain restorations at Passion Dental: porcelain veneers, zirconia/Emax/Lava crowns. Digital Smile Design (DSD), minimally invasive preparation, and genuine materials with warranty. Personally examined and designed by Dr. Nguyen Bao Yen."
+      "title": "Cosmetic Porcelain Crowns – Passion Dental Clinic Da Nang",
+      "description": "Cosmetic porcelain services at Passion Dental: Veneers, Zirconia/Emax/Lava crowns. Digital Smile Design (DSD), minimal-prep techniques, and genuine materials with warranty. Dr. Nguyen Bao Yen directly examines and designs each case."
     }
   },
   "booking": {
-    "title": "Book an Appointment – Contact Passion Dental Da Nang",
-    "description": "Schedule a free consultation at Passion Dental Da Nang. Meet our specialists, receive personalized treatment planning, and enjoy fully confidential information handling."
+    "title": "Book an Appointment – Contact Passion Dental Clinic Da Nang",
+    "description": "Book a free consultation at Passion Dental Clinic Da Nang. Meet our specialists for personalized treatment planning. All information is kept strictly confidential."
   },
   "diary": {
-    "title": "Smile Journal – Patient Photos & Reviews – Passion Dental",
-    "description": "Explore real before-and-after cases at Passion Dental: implants, orthodontics, porcelain restorations, and general treatments. Authentic patient video reviews and testimonials."
+    "title": "Smile Diary – Patient Photos & Reviews – Passion Dental",
+    "description": "Browse real before-and-after cases at Passion Dental: implants, orthodontics, cosmetic crowns, and general treatment. Authentic patient reviews and video testimonials."
   },
   "blog": {
-    "title": "Dental Blog & Oral Health Knowledge – Passion Dental",
-    "description": "Dental knowledge, oral care tips, and treatment insights from Passion Dental. Regularly updated with professional oral health information."
+    "title": "Blog & Dental Knowledge – Passion Dental",
+    "description": "Dental tips, oral care guidance, and treatment insights from Passion Dental. Regular updates on oral health."
   },
   "knowledge": {
-    "title": "Knowledge – Passion Dental",
-    "description": "Knowledge from Passion Dental. Regularly updated with professional oral health information."
+    "title": "Dental Knowledge – Passion Dental",
+    "description": "Dental knowledge from Passion Dental with frequent updates on oral health."
   }
 }
