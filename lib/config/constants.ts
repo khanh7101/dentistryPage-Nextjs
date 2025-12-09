@@ -3,7 +3,7 @@
  */
 
 export const SITE_CONFIG = {
-  name: 'Passion Dental Clinic',
+  name: 'Nha khoa Passion Đà Nẵng - Passion Dental Clinic',
   phone: '0704993579',
   email: 'contact@passiondental.com',
   address: {

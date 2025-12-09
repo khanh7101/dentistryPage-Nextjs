@@ -40,8 +40,8 @@ export function StructuredData({
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': type,
-    name: "Nha khoa Passion Đà Nẵng - Passion Dental Clinic",
-    description: "Nha khoa Passion Đà Nẵng cung cấp các dịch vụ nha khoa toàn diện, bao gồm cấy ghép implant, chỉnh nha, răng sứ và điều trị tổng quát.",
+    name: SITE_CONFIG.name,
+    description: description || "Nha khoa Passion Đà Nẵng cung cấp các dịch vụ nha khoa toàn diện, bao gồm cấy ghép implant, chỉnh nha, răng sứ và điều trị tổng quát.",
     url: baseUrl,
     logo: `${baseUrl}/images/brand/logo.png`,
     telephone: SITE_CONFIG.phone,

@@ -6,6 +6,7 @@ export const routing = defineRouting({
   locales: ['vi', 'en'],
   defaultLocale: 'vi',
   localePrefix: 'always', // /vi/..., /en/...
+  localeDetection: false, // Tắt auto-detect từ browser, luôn dùng defaultLocale
 });
 
 export const {

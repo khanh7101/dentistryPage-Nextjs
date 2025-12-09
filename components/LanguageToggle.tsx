@@ -18,9 +18,9 @@ const LanguageToggle: FC<Props> = ({ size = 22, variant = "ghost" }) => {
   const isVI = locale.toLowerCase().startsWith("vi");
 
   const btnBase =
-    "inline-flex items-center justify-center rounded-md transition focus:outline-none focus:ring-2 focus:ring-white/50";
-  const solid = "bg-white/90 text-slate-900 hover:bg-white shadow";
-  const ghost = "bg-white/15 text-white hover:bg-white/25";
+    "inline-flex items-center justify-center rounded-md transition-all duration-200 cursor-pointer focus:outline-none focus:ring-2 focus:ring-white/50 hover:scale-110 active:scale-95";
+  const solid = "bg-white/90 text-slate-900 hover:bg-white shadow hover:shadow-md";
+  const ghost = "bg-white/15 text-white hover:bg-white/30 hover:shadow-md";
 
   const onClick = () => {
     const nextLocale = isVI ? "en" : "vi";
