@@ -57,8 +57,10 @@ export async function generateSEOMetadata({
   const enUrl = new URL(`${baseUrl}/en${canonicalPath}`).href;
 
   return {
-    title: t('title'),
-    description: t('description'),
+    // title: t('title'),
+    // description: t('description'),
+    title: 'Nha khoa Passion Đà Nẵng - Passion Dental Clinic',
+    description: 'Nha khoa Passion Đà Nẵng cung cấp các dịch vụ nha khoa toàn diện, bao gồm cấy ghép implant, chỉnh nha, răng sứ và điều trị tổng quát.',
     alternates: {
       canonical: canonicalUrl,
       languages: {
