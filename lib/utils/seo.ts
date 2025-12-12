@@ -52,14 +52,11 @@ export async function generateSEOMetadata({
 
   const fullUrl = new URL(`/${locale}${canonicalPath}`, baseUrl).href;
 
-  const defaultOg = "/images/og/og-image.jpg";
+  const defaultOg = "/images/brand/logo.png";
   const ogImage = resolveImageUrl(baseUrl, image ?? defaultOg) ?? new URL(defaultOg, baseUrl).href;
 
-  const title =
-    (typeof t === "function" ? t("title") : "") || "Nha khoa Passion Đà Nẵng - Passion Dental Clinic";
-  const description =
-    (typeof t === "function" ? t("description") : "") ||
-    "Nha khoa Passion Đà Nẵng cung cấp các dịch vụ nha khoa toàn diện, bao gồm cấy ghép implant, chỉnh nha, răng sứ và điều trị tổng quát.";
+  const title = SITE_CONFIG.name;
+  const description = SITE_CONFIG.description;
 
   const canonicalUrl = new URL(`/${locale}${canonicalPath}`, baseUrl).href;
   const viUrl = new URL(`/vi${canonicalPath}`, baseUrl).href;
