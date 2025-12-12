@@ -89,7 +89,7 @@ function ReviewCard({ r }: { r: Review }) {
   const isLong = r.text.length > 180;
 
   return (
-    <article className="relative rounded-xl border bg-white p-5 shadow-sm">
+    <article className="relative rounded-xl border border-gray-200 bg-white p-5 shadow-sm hover:shadow-md hover:border-gray-300 transition-all duration-300">
       <div className="flex items-center gap-3">
         <img
           src={r.author.photo}
@@ -126,7 +126,7 @@ function ReviewCard({ r }: { r: Review }) {
       {isLong && (
         <button
           onClick={() => setExpanded(v => !v)}
-          className="mt-2 text-sm font-medium text-blue-600 hover:underline"
+          className="mt-2 text-sm font-medium text-blue-600 hover:underline hover:cursor-pointer"
           aria-expanded={expanded}
           aria-controls={`review-${r.author.name.replace(/\s+/g, "-")}`}
         >
@@ -151,7 +151,7 @@ export default function FiveStarReviews({
   return (
     <section className="w-full">
       {/* Grid reviews */}
-      <div className="grid gap-4 md:grid-cols-2">
+      <div className="grid gap-4 md:grid-cols-2 items-start">
         {list.map((r, i) => (
           <ReviewCard key={i} r={r} />
         ))}

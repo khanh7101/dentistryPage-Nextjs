@@ -45,6 +45,7 @@
     "dateRequired": "Vui lòng chọn ngày",
     "timeRequired": "Vui lòng chọn giờ",
     "timeRange": "Giờ hẹn không hợp lệ. Vui lòng chọn giờ từ 08:00 đến 17:00.",
+    "timePast": "Giờ đã trôi qua. Vui lòng chọn mốc thời gian trong tương lai của hôm nay.",
     "serviceRequired": "Vui lòng chọn dịch vụ",
     "formError": "Vui lòng kiểm tra lại thông tin đã nhập"
   },

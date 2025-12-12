@@ -125,7 +125,7 @@ export default async function Home({params}: PageProps) {
           {/* Cards */}
           <div className="space-y-6">
             {/* BS CKI Đặng Hoàng Thanh Tùng */}
-            <article className="rounded-2xl border bg-white/70 shadow-sm p-6 lg:p-8 grid gap-6 lg:grid-cols-2">
+            <article className="rounded-2xl border border-gray-200 bg-white/70 shadow-sm hover:shadow-md hover:border-gray-300 transition-all duration-300 p-6 lg:p-8 grid gap-6 lg:grid-cols-2">
               {/* Image */}
               <div className="overflow-hidden">
                 <Image
@@ -133,7 +133,7 @@ export default async function Home({params}: PageProps) {
                   alt={t('team.doc1.name')}
                   width={600}
                   height={600}
-                  className="rounded-md overflow-hidden border"
+                  className="rounded-md overflow-hidden border border-gray-200 hover:border-gray-300 transition-colors duration-300"
                   loading="lazy"
                 />
               </div>
@@ -148,7 +148,7 @@ export default async function Home({params}: PageProps) {
                     – FOUNDER NHA KHOA PASSION –
                   </h4>
                 </div>
-                <p className="mt-4 text-index justify-around italic pl-4 border-l-4 border-slate-300">
+                <p className="mt-4 text-index justify-around italic pl-4 border-l-4 border-gray-200">
                   {t('team.doc1.desc')}
                 </p>
                 <ul className="mt-4 list-disc pl-5 space-y-2 text-gray-800">
@@ -173,7 +173,7 @@ export default async function Home({params}: PageProps) {
             </article>
 
             {/* BÁC SĨ NGUYỄN BẢO YẾN */}
-            <article className="rounded-2xl border bg-white/70 shadow-sm p-6 md:p-8 grid gap-6 lg:grid-cols-2">
+            <article className="rounded-2xl border border-gray-200 bg-white/70 shadow-sm hover:shadow-md hover:border-gray-300 transition-all duration-300 p-6 md:p-8 grid gap-6 lg:grid-cols-2">
               {/* Text */}
               <div className="order-2 lg:order-1">
                 <div className="flex flex-col gap-1 md:gap-2 text-brand font-bold text-xl">
@@ -184,7 +184,7 @@ export default async function Home({params}: PageProps) {
                     - CO-FOUNDER NHA KHOA PASSION -
                   </h4>
                 </div>
-                <p className="mt-4 text-index justify-around italic pl-4 border-l-4 border-slate-300">
+                <p className="mt-4 text-index justify-around italic pl-4 border-l-4 border-gray-200">
                   {t('team.doc2.desc')}
                 </p>
                 <ul className="mt-4 list-disc pl-5 space-y-2 text-gray-800">

@@ -15,7 +15,7 @@ export const SITE_CONFIG = {
   businessHours: {
     open: '08:00',
     close: '17:00',
-    timeStep: 300, // 5 minutes in seconds
+    timeStep: 60, // 1 minute in seconds (allow finer input)
   },
   googleMaps: {
     embedUrl:
@@ -47,7 +47,7 @@ export const VALIDATION_RULES = {
   appointment: {
     minTime: '08:00',
     maxTime: '17:00',
-    timeStep: 300,
+    timeStep: 60,
     messages: {
       dateRequired: 'validation.dateRequired',
       timeRequired: 'validation.timeRequired',

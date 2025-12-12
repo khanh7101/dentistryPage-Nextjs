@@ -44,6 +44,7 @@
     "dateRequired": "Please select a date",
     "timeRequired": "Please select a time",
     "timeRange": "Invalid appointment time. Please choose a time between 08:00 and 17:00.",
+    "timePast": "The selected time is in the past. Please choose a future time today.",
     "serviceRequired": "Please select a service",
     "formError": "Please check the information you entered"
   },

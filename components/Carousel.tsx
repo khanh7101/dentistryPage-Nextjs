@@ -76,7 +76,7 @@ export default function Carousel({ slides, showDots }: CarouselProps) {
 
   return (
     <div
-      className="  rounded-xl relative"
+      className="relative rounded-xl px-4 sm:px-6 md:px-2"
       role="region"
       aria-roledescription="carousel"
       aria-label="Carousel"
@@ -110,34 +110,33 @@ export default function Carousel({ slides, showDots }: CarouselProps) {
       </div>
 
       {/* Nút mũi tên trái / phải */}
-        {total > 1 && (
-  <>
-            <ArrowButton side="left" onClick={() => go(-1)} ariaLabel="Previous slide" />
-            <ArrowButton side="right" onClick={() => go(1)} ariaLabel="Next slide" />
-          </>
-        )}
-        {/* Thanh vạch điều hướng */}
-        {showDots && total > 1 && (
-          <div className="absolute bottom-[-1vh] left-0 right-0 flex justify-center gap-1">
-            {slides.map((_, i) => {
-              const active = i === index;
-              return (
-                <button
-                  key={i}
-                  type="button"
-                  aria-label={`Go to slide ${i + 1}`}
-                  aria-current={active ? "true" : undefined}
-                  onClick={() => goTo(i)}
-                  className={`h-0.5 w-7 transition-all duration-300 ${
-                    active
-                      ? "bg-blue-500 shadow-sm scale-110"
-                      : "bg-blue-300 hover:bg-blue-400"
+      {total > 1 && (
+        <>
+          <ArrowButton side="left" onClick={() => go(-1)} ariaLabel="Previous slide" />
+          <ArrowButton side="right" onClick={() => go(1)} ariaLabel="Next slide" />
+        </>
+      )}
+      {/* Thanh vạch điều hướng */}
+      {showDots && total > 1 && (
+        <div className="absolute bottom-[-1vh] left-0 right-0 flex justify-center gap-1">
+          {slides.map((_, i) => {
+            const active = i === index;
+            return (
+              <button
+                key={i}
+                type="button"
+                aria-label={`Go to slide ${i + 1}`}
+                aria-current={active ? "true" : undefined}
+                onClick={() => goTo(i)}
+                className={`h-0.5 w-7 transition-all duration-300 ${active
+                    ? "bg-blue-500 shadow-sm scale-110"
+                    : "bg-blue-300 hover:bg-blue-400"
                   }`}
-                />
-              );
-            })}
-          </div>
-        )}
+              />
+            );
+          })}
+        </div>
+      )}
     </div>
   );
 }

@@ -108,7 +108,7 @@ export default function AllCarouselProps({
                     src={it.file}
                     alt={it.name || `Image ${i + 1}`}
                     previewMode={previewMode}
-                    className={`${aspectClass} object-contain cursor-zoom-in`}
+                    className={`${aspectClass} object-cover cursor-zoom-in`}
                     loading="lazy"
                     decoding="async"
                   />

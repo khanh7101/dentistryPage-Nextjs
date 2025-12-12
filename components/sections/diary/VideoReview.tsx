@@ -14,7 +14,7 @@ export default function VideoReview() {
   return (
     <div className="relative z-auto">
       {/* GRID VIDEO */}
-      <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-4 mt-5 max-w-4xl mx-auto">
+      <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4 mt-5 max-w-6xl mx-auto">
         {ids.map((id) => (
           <VideoCard key={id} id={id} A={A} onOpen={() => setSelected(id)} />
         ))}

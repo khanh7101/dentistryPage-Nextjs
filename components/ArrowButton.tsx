@@ -20,10 +20,10 @@ export function ArrowButton({
       onClick={onClick}
       aria-label={ariaLabel ?? (isLeft ? "Previous slide" : "Next slide")}
       className={[
-        "group absolute top-1/2 -translate-y-1/2 z-10",
+        "group absolute top-1/2 -translate-y-1/2 transform z-10",
         isLeft
-          ? "left-4 md:left-3 lg:left-6 xl:left-6"
-          : "right-4 md:right-4 lg:right-6 xl:right-6",
+          ? "left-0 -translate-x-1/2"
+          : "right-0 translate-x-1/2",
         "flex items-center justify-center",
         "focus:outline-none cursor-pointer",
         className,

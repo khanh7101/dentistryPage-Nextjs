@@ -140,7 +140,7 @@ export default function Header() {
           ].join(" ")}
         >
           {/* ========== Desktop Nav ========== */}
-          <div className="relative mx-auto hidden max-w-6xl items-center px-4 text-brand sm:px-6 lg:px-8 md:flex">
+          <div className="hidden md:flex items-center text-brand max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative">
             {/* Nav Items */}
             <ul className="flex flex-1 items-stretch justify-between gap-1 pr-12">
               {NAVIGATION_ITEMS.map((item) => {
@@ -191,9 +191,8 @@ export default function Header() {
 
                     {/* Dropdown */}
                     <div
-                      className={`absolute left-1/2 top-full mt-2 w-[220px] -translate-x-1/2 rounded-lg border bg-white shadow-xl transition-all duration-200 ${
-                        megaOpen ? "visible opacity-100" : "invisible opacity-0"
-                      }`}
+                      className={`absolute left-1/2 -translate-x-1/2 top-full mt-2 w-[220px] rounded-lg border bg-white shadow-xl transition-all duration-200 ${megaOpen ? "visible opacity-100" : "invisible opacity-0"
+                        }`}
                     >
                       {/* Invisible bridge div */}
                       <div className="absolute -top-2 left-0 right-0 h-2" />
@@ -224,10 +223,10 @@ export default function Header() {
               })}
             </ul>
 
-            {/* Language Toggle - Absolute Position (trong wrapper relative) */}
-            <div className="absolute right-4 top-1/2 -translate-y-1/2">
-              <LanguageToggle />
-            </div>
+          </div>
+          {/* Language Toggle - Absolute Position (trong wrapper relative) */}
+          <div className="absolute right-6 top-1/2 -translate-y-1/2">
+            <LanguageToggle />
           </div>
 
           {/* ========== Mobile Nav ========== */}
@@ -308,9 +307,8 @@ export default function Header() {
                           }
                         >
                           <svg
-                            className={`h-5 w-5 transform transition-transform ${
-                              mobileSvOpen[item.to] ? "rotate-180" : ""
-                            }`}
+                            className={`h-5 w-5 transform transition-transform ${mobileSvOpen[item.to] ? "rotate-180" : ""
+                              }`}
                             viewBox="0 0 20 20"
                             fill="currentColor"
                           >

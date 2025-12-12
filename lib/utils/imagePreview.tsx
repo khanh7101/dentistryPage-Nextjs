@@ -29,7 +29,16 @@ export function showImagePreview(opts: ImagePreviewOptions) {
   document.body.appendChild(container);
   const root = createRoot(container);
 
+  // Khóa scroll toàn cục (kể cả wheel/touch trên trackpad)
+  const preventScroll = (e: Event) => {
+    e.preventDefault();
+  };
+  window.addEventListener("wheel", preventScroll, { passive: false });
+  window.addEventListener("touchmove", preventScroll, { passive: false });
+
   const close = () => {
+    window.removeEventListener("wheel", preventScroll);
+    window.removeEventListener("touchmove", preventScroll);
     root.unmount();
     container.remove();
     document.body.style.removeProperty("overflow");
@@ -138,8 +147,8 @@ function ImagePreviewModal({
     mode === "fit"
       ? "max-w-[92vw] max-h-[85vh] object-contain"
       : mode === "cover"
-      ? "w-[92vw] h-[85vh] object-cover"
-      : "object-contain select-none";
+        ? "w-[92vw] h-[85vh] object-cover"
+        : "object-contain select-none";
 
   // Đóng nếu click bất kỳ chỗ nào KHÔNG nằm trong ảnh
   const handleGlobalClick: MouseEventHandler<HTMLDivElement> = (e) => {
@@ -159,7 +168,7 @@ function ImagePreviewModal({
         className="absolute left-0 right-0 top-0 flex items-center justify-between px-4 py-3 text-white/90"
         onClick={(e) => e.stopPropagation()}
       >
-        <span className="text-sm">{alt}</span>
+        {/* <span className="text-sm">{alt}</span> */}
         <div className="flex items-center gap-2">
           {mode === "original" && (
             <>
@@ -199,7 +208,7 @@ function ImagePreviewModal({
               </button>
             </>
           )}
-          <button
+          {/* <button
             type="button"
             onClick={(e) => {
               e.stopPropagation();
@@ -217,7 +226,7 @@ function ImagePreviewModal({
             "
           >
             ×
-          </button>
+          </button> */}
         </div>
       </div>
 
@@ -238,12 +247,12 @@ function ImagePreviewModal({
           style={
             mode === "original"
               ? {
-                  transform: `translate(${pos.x}px, ${pos.y}px) scale(${scale})`,
-                  transformOrigin: "center",
-                  transition: dragging.current
-                    ? "none"
-                    : "transform 120ms ease-out",
-                }
+                transform: `translate(${pos.x}px, ${pos.y}px) scale(${scale})`,
+                transformOrigin: "center",
+                transition: dragging.current
+                  ? "none"
+                  : "transform 120ms ease-out",
+              }
               : undefined
           }
           draggable={false}

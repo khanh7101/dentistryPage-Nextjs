@@ -61,7 +61,7 @@ export default function FavServices() {
           {/* bottom content */}
           <div className="absolute inset-x-0 bottom-0">
             <div
-              className="px-4 text-white translate-y-0 transition-transform duration-300 ease-[cubic-bezier(.2,.8,.2,1)] group-hover:-translate-y-3 will-change-transform"
+              className="px-4 pb-4 lg:pb-0 text-white translate-y-0 transition-transform duration-300 ease-[cubic-bezier(.2,.8,.2,1)] group-hover:-translate-y-3 will-change-transform"
             >
               {/* TITLE */}
               <div className="mb-2 inline-flex rounded-lg bg-white/20 px-3 py-2 text-base backdrop-blur">
@@ -70,7 +70,7 @@ export default function FavServices() {
 
               {/* DESC */}
               <div
-                className="max-h-0 overflow-hidden translate-y-1 opacity-0 transition-[max-height,opacity,transform] duration-300 ease-[cubic-bezier(.2,.8,.2,1)] delay-50 group-hover:max-h-24 group-hover:translate-y-0 group-hover:opacity-100"
+                className="translate-y-0 opacity-100 max-h-none transition-[max-height,opacity,transform] duration-300 ease-[cubic-bezier(.2,.8,.2,1)] delay-50 lg:max-h-0 lg:overflow-hidden lg:translate-y-1 lg:opacity-0 lg:group-hover:max-h-24 lg:group-hover:translate-y-0 lg:group-hover:opacity-100"
               >
                 <p className="text-sm/6 text-white/95">{s.desc}</p>
               </div>

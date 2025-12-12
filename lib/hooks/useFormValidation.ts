@@ -65,6 +65,19 @@ export function useFormValidation() {
 
       if (selectedTime < minTime || selectedTime > maxTime) {
         errors.time = t(VALIDATION_RULES.appointment.messages.timeRange);
+      } else if (form.date) {
+        const today = new Date();
+        const selectedDate = new Date(form.date);
+        if (
+          selectedDate.getFullYear() === today.getFullYear() &&
+          selectedDate.getMonth() === today.getMonth() &&
+          selectedDate.getDate() === today.getDate()
+        ) {
+          const nowMinutes = today.getHours() * 60 + today.getMinutes();
+          if (selectedTime < nowMinutes) {
+            errors.time = t('validation.timePast');
+          }
+        }
       }
     }
 
