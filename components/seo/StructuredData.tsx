@@ -24,7 +24,7 @@ export function StructuredData({
   // Always use production URL for structured data to avoid SEO issues
   // Never use localhost URLs in production metadata
   function getBaseUrl(): string {
-    const productionUrl = 'https://passiondental.vn';
+    const productionUrl = 'https://www.passiondental.com.vn';
     const envUrl = process.env.NEXT_PUBLIC_SITE_URL;
     
     // Only use env URL if it's a production URL (not localhost)

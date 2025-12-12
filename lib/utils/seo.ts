@@ -13,7 +13,7 @@ type GenerateSEOMetadataParams = {
 
 /** Production base URL — vẫn sử dụng env nếu set, fallback về production domain */
 function getBaseUrl(): string {
-  const productionUrl = 'https://passiondental.vn'; // sửa nếu cần https://www.passiondental.com.vn
+  const productionUrl = 'https://www.passiondental.com.vn'; // sửa nếu cần https://www.passiondental.vn
   const envUrl = process.env.NEXT_PUBLIC_SITE_URL;
   if (envUrl && !envUrl.includes('localhost') && !envUrl.includes('127.0.0.1')) {
     return envUrl;
