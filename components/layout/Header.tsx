@@ -107,12 +107,12 @@ export default function Header() {
               href={`tel:${SITE_CONFIG.phone}`}
               className="inline-flex items-center gap-1 rounded-full bg-white px-2 py-1.5 text-xs font-semibold text-brand md:gap-2 md:px-3 md:py-2 md:text-sm"
             >
-              <IconPhone className="h-3 w-3 md:h-4 md:w-4" />
+              <IconPhone className="h-4 w-4" />
               <span className="hidden sm:inline">{SITE_CONFIG.phone}</span>
             </a>
 
             {/* Social icons */}
-            <div className="hidden items-center gap-2 md:gap-3 sm:flex">
+            <div className="flex items-center gap-2 md:gap-3">
               {SOCIAL_LINKS.map(({ href, Icon, label }) => (
                 <a
                   key={label}
@@ -224,8 +224,8 @@ export default function Header() {
             </ul>
 
           </div>
-          {/* Language Toggle - Absolute Position (trong wrapper relative) */}
-          <div className="absolute right-6 top-1/2 -translate-y-1/2">
+          {/* Language Toggle - Absolute Position (trong wrapper relative) - Hidden on mobile */}
+          <div className="hidden md:block absolute right-6 top-1/2 -translate-y-1/2">
             <LanguageToggle />
           </div>
 

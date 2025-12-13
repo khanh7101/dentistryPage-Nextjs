@@ -17,7 +17,7 @@ export const NAVIGATION_ITEMS: NavItem[] = [
     ],
   },
   { to: '/diary', key: 'nav.smile_journal' },
-  { to: '/knowledge', key: 'nav.knowledge' },
+  { to: '/blog', key: 'nav.blog' },
   { to: '/booking', key: 'nav.booking' },
 ] as const;
 

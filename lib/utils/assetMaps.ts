@@ -14,6 +14,7 @@ const IMAGE_BASE = {
   porcelain: "/images/services/porcelain",
   orthodontic: "/images/services/orthodontic",
   implant: "/images/services/implant",
+  blog: "/images/blog",
 } as const;
 
 export type ImageGroup = keyof typeof IMAGE_BASE;
@@ -67,3 +68,6 @@ export const orthodonticServiceImage = (filename: string) =>
 
 export const implantServiceImage = (filename: string) =>
   getImageUrl("implant", filename);
+
+export const blogImage = (blogNumber: string, filename: string) =>
+  `${IMAGE_BASE.blog}/${blogNumber}/${filename}`;

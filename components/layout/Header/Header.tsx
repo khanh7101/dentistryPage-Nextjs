@@ -45,10 +45,6 @@ export default function Header() {
             scrolled ? 'shadow-md ring-1 ring-black/5' : '',
           ].join(' ')}
         >
-          {/* Language Toggle - Desktop */}
-          <div className="absolute right-4 top-1/2 hidden -translate-y-1/2 md:block">
-            <LanguageToggle />
-          </div>
 
           <DesktopNav isPathActive={isPathActive} />
           <MobileNav

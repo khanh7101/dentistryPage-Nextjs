@@ -125,15 +125,17 @@ export default async function Home({params}: PageProps) {
           {/* Cards */}
           <div className="space-y-6">
             {/* BS CKI Đặng Hoàng Thanh Tùng */}
-            <article className="rounded-2xl border border-gray-200 bg-white/70 shadow-sm hover:shadow-md hover:border-gray-300 transition-all duration-300 p-6 lg:p-8 grid gap-6 lg:grid-cols-2">
+            <article className="rounded-2xl border bg-white/70 shadow-sm p-6 lg:p-8 grid gap-6 lg:grid-cols-2">
               {/* Image */}
               <div className="overflow-hidden">
                 <Image
                   src={homeImage(t('team.doc1.img'))}
                   alt={t('team.doc1.name')}
-                  width={600}
-                  height={600}
-                  className="rounded-md overflow-hidden border border-gray-200 hover:border-gray-300 transition-colors duration-300"
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  style={{ width: '100%', height: 'auto' }}
+                  className="rounded-md overflow-hidden border"
                   loading="lazy"
                 />
               </div>
@@ -209,13 +211,15 @@ export default async function Home({params}: PageProps) {
               </div>
 
               {/* Image */}
-              <div className="order-1 lg:order-2 rounded-md overflow-hidden">
+              <div className="order-1 lg:order-2 rounded-md overflow-hidden ">
                 <Image
                   src={homeImage(t('team.doc2.img'))}
                   alt={t('team.doc2.name')}
-                  width={600}
-                  height={600}
-                  className="aspect-square object-cover"
+                  width={0}
+                  height={0}
+                  sizes="100vw"
+                  style={{ width: '100%', height: 'auto' }}
+                  className="rounded-md overflow-hidden border"
                   loading="lazy"
                 />
               </div>

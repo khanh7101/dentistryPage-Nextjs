@@ -11,7 +11,7 @@ export default getRequestConfig(async ({requestLocale}) => {
   const booking = (await import(`../../messages/${locale}/booking.json`)).default;
   const diary = (await import(`../../messages/${locale}/diary.json`)).default;
   const seo = (await import(`../../messages/${locale}/seo.json`)).default;
-  // const blog = (await import(`../../messages/${locale}/blog.json`)).default;
+  const blog = (await import(`../../messages/${locale}/blog.json`)).default;
 
   return {
     locale,
@@ -23,7 +23,7 @@ export default getRequestConfig(async ({requestLocale}) => {
       booking,
       diary,
       seo,
-      // blog,
+      blog,
     },
   };
 });
