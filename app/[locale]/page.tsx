@@ -125,7 +125,7 @@ export default async function Home({params}: PageProps) {
           {/* Cards */}
           <div className="space-y-6">
             {/* BS CKI Đặng Hoàng Thanh Tùng */}
-            <article className="rounded-2xl border bg-white/70 shadow-sm p-6 lg:p-8 grid gap-6 lg:grid-cols-2">
+            <article className="rounded-2xl border border-gray-200 bg-white/70 shadow-sm hover:shadow-md hover:border-gray-300 transition-all duration-300 p-6 md:p-8 grid gap-6 lg:grid-cols-2">
               {/* Image */}
               <div className="overflow-hidden">
                 <Image
