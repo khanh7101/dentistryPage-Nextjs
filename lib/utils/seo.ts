@@ -55,8 +55,8 @@ export async function generateSEOMetadata({
   const defaultOg = "/images/brand/logo.png";
   const ogImage = resolveImageUrl(baseUrl, image ?? defaultOg) ?? new URL(defaultOg, baseUrl).href;
 
-  const title = SITE_CONFIG.name;
-  const description = SITE_CONFIG.description;
+  const title = t("title") || SITE_CONFIG.name;
+  const description = t("description") || SITE_CONFIG.description;
 
   const canonicalUrl = new URL(`/${locale}${canonicalPath}`, baseUrl).href;
   const viUrl = new URL(`/vi${canonicalPath}`, baseUrl).href;
