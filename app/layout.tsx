@@ -8,19 +8,16 @@ import "./globals.css";
 export const dynamic = "force-dynamic";
 
 const BASE_URL = "https://www.passiondental.com.vn";
-const LOGO = `${BASE_URL}/images/brand/logo.png`;
+const LOGO = `${BASE_URL}/images/brand/logoUrl.jpg`;
 
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
   // Keep default minimal — page-level metadata will override this via generateMetadata
-  title: {
-    default: "Nha khoa Passion Đà Nẵng - Passion Dental Clinic",
-    template: "%s |Passion Dental Clinic",
-  },
+  title: "Nha khoa Passion Đà Nẵng - Passion Dental Clinic",
   description: "Nha khoa Passion Đà Nẵng cung cấp các dịch vụ nha khoa toàn diện.",
   icons: {
-    icon: "/images/brand/logo.png",
-    apple: "/images/brand/logo.png",
+    icon: LOGO,
+    apple: LOGO,
   },
 };
 

@@ -1,7 +1,6 @@
 {
-  
   "banner": "vBanner.jpg",
-  "doc": "vDoc.png",
+  "doc": "vDoc.jpg",
   "title": "Liên hệ Nha khoa Passion",
   "desc": "Để được gặp các bác sĩ chuyên khoa, trước tiên bạn cần liên hệ và đặt lịch hẹn trước với Nha khoa Passion Đà Nẵng. Điều này giúp bạn chủ động hơn về thời gian đến thăm khám.",
   "title1": "Đặt lịch khám tại",
@@ -15,7 +14,6 @@
     "date": "Chọn ngày",
     "time": "Chọn giờ",
     "timePlaceholder": "Chọn giờ (08:00 - 17:00)",
-
     "service": {
       "title": "Chọn dịch vụ",
       "options": {
@@ -41,7 +39,6 @@
     "phoneRequired": "Vui lòng nhập số điện thoại",
     "phoneInvalid": "Số điện thoại không hợp lệ",
     "emailInvalid": "Email không hợp lệ",
-    
     "dateRequired": "Vui lòng chọn ngày",
     "timeRequired": "Vui lòng chọn giờ",
     "timeRange": "Giờ hẹn không hợp lệ. Vui lòng chọn giờ từ 08:00 đến 17:00.",

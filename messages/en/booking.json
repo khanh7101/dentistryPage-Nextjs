@@ -1,6 +1,6 @@
 {
   "banner": "eBanner.jpg",
-  "doc": "eDoc.png",
+  "doc": "eDoc.jpg",
   "title": "Contact Passion Dental",
   "desc": "To meet with our specialist dentists, please reach out and schedule an appointment with Passion Dental Da Nang in advance. This helps you stay proactive and better manage your time for your visit.",
   "title1": "Book an Appointment at",
@@ -14,7 +14,6 @@
     "date": "Select Date",
     "time": "Select Time",
     "timePlaceholder": "Choose a time (08:00 - 17:00)",
-
     "service": {
       "title": "Select Service",
       "options": {
@@ -40,7 +39,6 @@
     "phoneRequired": "Please enter your phone number",
     "phoneInvalid": "Invalid phone number",
     "emailInvalid": "Invalid email address",
-
     "dateRequired": "Please select a date",
     "timeRequired": "Please select a time",
     "timeRange": "Invalid appointment time. Please choose a time between 08:00 and 17:00.",
