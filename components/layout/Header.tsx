@@ -27,9 +27,9 @@ const STYLES = {
     menu: "absolute left-0 right-0 shadow-lg rounded-b-lg mt-2 px-4 bg-white/90 backdrop-blur-md",
     toggleBar: "flex justify-end items-center bg-transparent",
     menuButton:
-      "absolute left-2 p-2 text-brand hover:bg-brand hover:text-white rounded-md",
+      "absolute left-2 p-2 text-brand hover:bg-brand hover:text-white rounded-md cursor-pointer",
     item: "block rounded-md px-3 py-2 text-base font-medium",
-    dropdown: "pl-4 space-y-1 bg-none",
+    dropdown: "pl-4 space-y-1 bg-none my-1.5",
   },
 };
 
