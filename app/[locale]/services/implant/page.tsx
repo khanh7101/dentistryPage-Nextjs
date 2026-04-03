@@ -276,7 +276,7 @@ export default async function Implant({ params }: PageProps) {
           <AllCarouselProps
             pageSize={2}
             aspectClass="aspect-square"
-            source={[1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map((n) =>
+            source={[1, 2, 3, 4].map((n) =>
               implantServiceImage(`sl${n}.jpg`)
             )}
           />
