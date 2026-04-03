@@ -7,14 +7,14 @@ import React, { useState, useEffect } from "react";
    MAIN COMPONENT
    ========================================= */
 export default function VideoReview() {
-  const ids = ["KKj27Nu_8RA", "L-_2r_w3yqc", "scDIIcKYt8c", "tneRp716g4M"];
+  const ids = [ "L-_2r_w3yqc", "tneRp716g4M"];
   const A = "aspect-[9/16]"; // Tỉ lệ dọc Shorts
   const [selected, setSelected] = useState<string | null>(null);
 
   return (
     <div className="relative z-auto">
       {/* GRID VIDEO */}
-      <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-4 mt-5 max-w-6xl mx-auto">
+      <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-2 mt-5 max-w-6xl mx-auto">
         {ids.map((id) => (
           <VideoCard key={id} id={id} A={A} onOpen={() => setSelected(id)} />
         ))}

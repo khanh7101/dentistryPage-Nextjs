@@ -26,7 +26,7 @@ export default async function Blog({ params }: PageProps) {
         {/* Title */}
         <section className="section !py-3">
           <h1 className="text-4xl font-bold" style={{ color: 'var(--color-title)' }}>{t('blog1.title')}</h1>
-          <p>
+          {/* <p>
             {t.rich('blog1.intro', {
               strong: (chunks) => <strong className="font-bold">{chunks}</strong>,
               em: (chunks) => <em className="font-bold text-title ">{chunks}</em>,
@@ -42,7 +42,7 @@ export default async function Blog({ params }: PageProps) {
               loading="lazy"
             />
             <p className="text-center text-lg italic">{t('blog1.caption1')}</p>
-          </div>
+          </div> */}
         </section>
 
         {/* Section 1 */}
