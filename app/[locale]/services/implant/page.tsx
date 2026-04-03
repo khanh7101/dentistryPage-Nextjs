@@ -210,22 +210,26 @@ export default async function Implant({ params }: PageProps) {
           <h2 style={{ color: 'var(--color-title)' }}>
             {t.rich('implant.sec5.ti', {
               br: () => <br />,
+              
             })}
           </h2>
           <p>
             {t.rich('implant.sec5.desc', {
               br: () => <br />,
+              strong: (chunks) => <strong className="font-bold">{chunks}</strong>,
             })}
           </p>
           <p className="font-bold">{t('implant.sec5.ti1')}</p>
           <p>
             {t.rich('implant.sec5.desc1-1', {
               br: () => <br />,
+              strong: (chunks) => <strong className="font-bold">{chunks}</strong>,
             })}
           </p>
           <p>
             {t.rich('implant.sec5.desc1-2', {
               br: () => <br />,
+              strong: (chunks) => <strong className="font-bold">{chunks}</strong>,
             })}
           </p>
           <Image
@@ -240,6 +244,7 @@ export default async function Implant({ params }: PageProps) {
           <p>
             {t.rich('implant.sec5.desc2', {
               br: () => <br />,
+              strong: (chunks) => <strong className="font-bold">{chunks}</strong>,
             })}
           </p>
           <Image
@@ -254,6 +259,7 @@ export default async function Implant({ params }: PageProps) {
           <p className="mt-3 text-slate-700 text-lg">
             {t.rich('implant.sec5.desc3', {
               br: () => <br />,
+              strong: (chunks) => <strong className="font-bold">{chunks}</strong>,
             })}
           </p>
         </section>

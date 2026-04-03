@@ -23,11 +23,11 @@ export default async function Diary({ params }: PageProps) {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'diary' });
 
-  const implantPhotos = Array.from({ length: 8 }, (_, i) => `i${i + 1}.jpg`);
+  const implantPhotos = Array.from({ length: 3 }, (_, i) => `i${i + 1}.jpg`);
   const orthoPhotos = Array.from({ length: 8 }, (_, i) => `o${i + 1}.jpg`);
   const porcelainPhotos = Array.from({ length: 4 }, (_, i) => `p${i + 1}.jpg`);
-  const generalPhotos = Array.from({ length: 4 }, (_, i) => `g${i + 1}.jpg`);
-  const feedbackPhotos = Array.from({ length: 9 }, (_, i) => `f${i + 1}.jpg`);
+  const generalPhotos = Array.from({ length: 3 }, (_, i) => `g${i + 1}.jpg`);
+  const feedbackPhotos = Array.from({ length: 6 }, (_, i) => `f${i + 1}.jpg`);
 
   return (
     <div className="container">
@@ -51,7 +51,7 @@ export default async function Diary({ params }: PageProps) {
           </div>
           <p>{t('desc1')}</p>
           <h4>{t('li1')}</h4>
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-1 mt-5">
+          <div className="grid grid-cols-3 lg:grid-cols-3 gap-1 mt-5">
             {implantPhotos.map((file) => (
               <div key={file} className="w-full">
                 <ImageWithPreview
@@ -96,7 +96,7 @@ export default async function Diary({ params }: PageProps) {
             ))}
           </div>
           <h4>{t('li4')}</h4>
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-1 mt-5">
+          <div className="grid grid-cols-3 lg:grid-cols-3 gap-1 mt-5">
             {generalPhotos.map((file) => (
               <div key={file} className="w-full">
                 <ImageWithPreview

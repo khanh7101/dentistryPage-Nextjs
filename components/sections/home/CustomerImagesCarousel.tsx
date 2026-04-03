@@ -16,7 +16,7 @@ export default function CustomerImagesCarousel() {
     if (width >= 1400) {
       setPageSize(4); // lg and up
     } else if (width >= 768) {
-      setPageSize(3); // sm to md
+      setPageSize(2); // sm to md
     } else {
       setPageSize(2); // below sm
     }
@@ -26,7 +26,7 @@ export default function CustomerImagesCarousel() {
     <AllCarouselProps
       pageSize={pageSize}
       aspectClass="aspect-square"
-      source={[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12].map((n) =>
+      source={[1, 2, 3, 4].map((n) =>
         customReviewImage(`${n}.jpg`)
       )}
     />
