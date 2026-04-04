@@ -123,7 +123,7 @@ export default async function About({ params }: PageProps) {
           <div className="my-5 grid gap-4 md:grid-cols-2">
             <Image
               src={aboutImage("4.1.jpg")}
-              alt="Case Implant toàn hàm"
+              alt="Case Implant "
               width={800}
               height={800}
               className="aspect-square object-fill"
